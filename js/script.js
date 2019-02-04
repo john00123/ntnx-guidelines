@@ -7,7 +7,7 @@ category.map(element =>$('body').append(
 
 category.map(element =>{
 
-  var folder = `../img/${element}`;
+  var folder = `./img/${element}`;
 
   $.ajax({
       url : folder,
