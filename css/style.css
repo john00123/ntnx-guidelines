@@ -334,6 +334,10 @@ header {
   margin-right: 20px;
 }
 
+.main-back {
+  margin-right: -5px;
+}
+
 .slideDown {
   transform: translate3d(0px, 0px, 0px);
   opacity: 1;
@@ -462,7 +466,6 @@ a:hover {
 
 .image:hover {
   cursor: pointer;
-  box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
 }
 
 .image button {

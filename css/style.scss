@@ -58,7 +58,7 @@ a:hover{
   @include transition(all);
   &:hover{
     cursor: pointer;
-    @include shadow();
+    // @include shadow();
   }
 }
 
