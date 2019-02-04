@@ -43,7 +43,15 @@ body{
 
 .guide{
   max-width: 70ch;
+  p{
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  h3{
+    font-size: 18px;
+  }
 }
+
 
 a:hover{
   text-decoration: none;

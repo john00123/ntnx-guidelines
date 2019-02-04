@@ -17,7 +17,7 @@ category.map(element =>{
 
                 //insert in <a href="${val}" download> to enable download
 
-                  $(`.${element}`).append( `<a> <div class='image ${element}-child' style='
+                  $(`.${element}`).append( `<a href="${val}" download> <div class='image ${element}-child' style='
                     background-color: #F2F4F6;
                     width:100%;
                     background-image:url(${val});
