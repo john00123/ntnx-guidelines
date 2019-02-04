@@ -1,0 +1,88 @@
+//Comment for compiler
+@import '../../_ntnx/variables';
+@import '../../_ntnx/mixins';
+@import 'base';
+@import 'header';
+@import 'subheader';
+
+
+html{
+  @include font;
+  background-color: white;
+  overflow-y:scroll;
+}
+
+body{
+  @include flex(flex-start, flex-start, column);
+  @include size(100%, 100%);
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 120px;
+
+}
+
+.compress{
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.grid{
+  @include flex(flex-start, flex-start, column);
+  @include size(auto, 100%);
+  @include grid(200px, 1fr, 30px);
+  padding-bottom: 90px;
+}
+
+.title{
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: $font-color-2;
+}
+
+.guide{
+  max-width: 70ch;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.image{
+  @include size(200px, 200px);
+  @include flex(center, flex-end, column);
+  background: $background-color-4;
+  border-radius: 4px;
+  padding: 10px;
+  @include transition(all);
+  &:hover{
+    cursor: pointer;
+    @include shadow();
+  }
+}
+
+.image button{
+  border: none;
+  pointer-events: none;
+  color:$font-color-2;
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 4pc;
+  opacity: 0;
+  transform: translate3d(0, 5px, 0);
+  @include transition(all);
+
+
+  @media only screen and (max-width: 600px){
+    opacity: 1;
+  }
+}
+
+
+.image:hover button{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  color: $blue-1;
+}
