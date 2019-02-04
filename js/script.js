@@ -7,11 +7,12 @@ category.map(element =>$('body').append(
 
 category.map(element =>{
 
-  var folder = `./img/${element}`;
+  var folder = `https://john00123.github.io/ntnx-guidelines/img/${element}`;
 
   $.ajax({
       url : folder,
       success: function (data) {
+        console.log('success');
           $(data).find("a").attr("href", function (i, val) {
               if( val.match(/\.(jpe?g|png|svg)$/) ) {
 
@@ -38,7 +39,7 @@ category.map(element =>{
 
 });
 
-
+$('body').append(`<img src="https://john00123.github.io/ntnx-guidelines/img/transportation/bus_01.svg"/>`)
 
 $('body').prepend(`
   <h1> Illustration Guidelines</h1>
