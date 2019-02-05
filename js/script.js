@@ -1,6 +1,6 @@
 const category = ['geometry','transportation','infrastructure','miscelaneous','tools', 'signs', 'interface','buildings']
 
-const color = ['red','blue']
+const color = ['red','blue','purple']
 
 category.map(element =>$('body').append(
   ` <h3 class='title'>${element}</h3>
@@ -58,7 +58,7 @@ $(document).ready(function() {
         Shading for an object can use any row other than the top; though be mindful of lighting (see next section).
       </p>
       <div class='section'>
-        ${color.map(value=>`<div class='circle' style='background:${value}'></div>`).join().replace(',','')}
+        ${color.map(value=>`<div class='circle' style='background:${value}'></div>`).join("")}
       </div>
       <p>
       When using color, be wary of any connotations that certain shades may have; the majority of illustrations will have a grey base.
