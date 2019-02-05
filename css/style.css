@@ -332,6 +332,11 @@ header {
   height: 16px;
   padding: 0 20px;
   margin-right: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 10ch;
+  overflow: hidden;
+  display: inline;
 }
 
 .main-back {
@@ -443,7 +448,7 @@ body {
 }
 
 .guide {
-  max-width: 70ch;
+  max-width: 100ch;
 }
 
 .guide p {
@@ -500,4 +505,19 @@ a:hover {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   color: #22A5F7;
+}
+
+.section {
+  background-color: #F2F4F6;
+  height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  box-sizing: border-box;
+  border-radius: 4pc;
 }

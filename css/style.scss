@@ -42,7 +42,7 @@ body{
 }
 
 .guide{
-  max-width: 70ch;
+  max-width: 100ch;
   p{
     font-size: 16px;
     line-height: 1.75;
@@ -93,4 +93,15 @@ a:hover{
   opacity: 1;
   transform: translate3d(0, 0, 0);
   color: $blue-1;
+}
+
+.section{
+  background-color: $background-color-3;
+  @include size(200px, 100%);
+  border-radius: 4px;
+}
+
+.circle{
+  @include size(30px, 30px);
+  border-radius: 4pc;
 }
