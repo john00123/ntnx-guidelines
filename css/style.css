@@ -332,6 +332,7 @@ header {
   height: 16px;
   padding: 0 20px;
   margin-right: 20px;
+  line-height: 18px;
   text-overflow: ellipsis;
   white-space: nowrap;
   min-width: 10ch;
@@ -407,7 +408,7 @@ html {
   overflow-y: scroll;
 }
 
-body {
+.content {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -447,8 +448,15 @@ body {
   color: #627386;
 }
 
-.guide {
-  max-width: 100ch;
+.section-title {
+  height: 100%;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.section-content {
+  border-left: 1px solid #F2F4F6;
+  padding-left: 40px;
 }
 
 .guide p {
@@ -472,14 +480,48 @@ a:hover {
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  background: #4D5969;
+  background-color: #F2F4F6;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 4px;
   padding: 10px;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
 }
 
 .image:hover {
   cursor: pointer;
+}
+
+.review {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.gif-child {
+  background-size: 30px;
+}
+
+.approved a:nth-child(1), .approved a:nth-child(10), .approved a:nth-child(14), .approved a:nth-child(17), .approved a:nth-child(29) {
+  grid-column: span 3;
+  grid-row: span 3;
+  background-size: cover;
+}
+
+.approved a:nth-child(1) .image, .approved a:nth-child(10) .image, .approved a:nth-child(14) .image, .approved a:nth-child(17) .image, .approved a:nth-child(29) .image {
+  height: 660px;
+}
+
+@media only screen and (max-width: 600px) {
+  .approved a:nth-child(1), .approved a:nth-child(10), .approved a:nth-child(14), .approved a:nth-child(17), .approved a:nth-child(29) {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .approved a:nth-child(1) .image, .approved a:nth-child(10) .image, .approved a:nth-child(14) .image, .approved a:nth-child(17) .image, .approved a:nth-child(29) .image {
+    height: 200px;
+  }
 }
 
 .image button {
@@ -505,19 +547,4 @@ a:hover {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   color: #22A5F7;
-}
-
-.section {
-  background-color: #F2F4F6;
-  height: 200px;
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-
-.circle {
-  height: 30px;
-  width: 30px;
-  box-sizing: border-box;
-  border-radius: 4pc;
 }

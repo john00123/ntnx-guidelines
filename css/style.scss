@@ -12,14 +12,13 @@ html{
   overflow-y:scroll;
 }
 
-body{
+.content{
   @include flex(flex-start, flex-start, column);
   @include size(100%, 100%);
   padding: 20px;
   max-width: 1400px;
   margin: auto;
   margin-top: 120px;
-
 }
 
 .compress{
@@ -40,9 +39,17 @@ body{
   margin-bottom: 30px;
   color: $font-color-2;
 }
+.section-title{
+  @include size(100%, 600px);
+}
+
+.section-content{
+  border-left: 1px solid $background-color-3;
+  padding-left: 40px;
+}
 
 .guide{
-  max-width: 100ch;
+  // max-width: 100ch;
   p{
     font-size: 16px;
     line-height: 1.75;
@@ -57,16 +64,46 @@ a:hover{
   text-decoration: none;
 }
 
+
+
 .image{
   @include size(200px, 200px);
   @include flex(center, flex-end, column);
-  background: $background-color-4;
+  background-color: #F2F4F6;
+  width:100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 4px;
   padding: 10px;
   @include transition(all);
+  position: relative;
   &:hover{
     cursor: pointer;
     // @include shadow();
+  }
+}
+
+.review{
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.gif-child{
+  background-size: 30px;
+}
+
+.approved {
+  a:nth-child(1), a:nth-child(10), a:nth-child(14), a:nth-child(17),a:nth-child(29){
+    grid-column: span 3;
+    grid-row: span 3;
+    background-size: cover;
+    .image{height: 660px;}
+    @media only screen and (max-width: 600px){
+      grid-column: span 1;
+      grid-row: span 1;
+      .image{height: 200px;}
+    }
   }
 }
 
@@ -93,15 +130,4 @@ a:hover{
   opacity: 1;
   transform: translate3d(0, 0, 0);
   color: $blue-1;
-}
-
-.section{
-  background-color: $background-color-3;
-  @include size(200px, 100%);
-  border-radius: 4px;
-}
-
-.circle{
-  @include size(30px, 30px);
-  border-radius: 4pc;
 }

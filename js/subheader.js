@@ -19,8 +19,8 @@ $('.subheader').append(`<div class='compress' hcd>
     <h3 alt> Illustration </h3>
   </div>
   <div class='' hcs>
-    <li>Guidelines</li>
-    <li>Product</li>
+    <li>Building Blocks</li>
+    <li>Product </li>
     <li>Marketing</li>
     <li>Video</li>
   </div>
