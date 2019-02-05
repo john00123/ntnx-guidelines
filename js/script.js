@@ -56,6 +56,7 @@ function loadIn(page) {
       })
     }, 700);
   })
+  content.removeClass('slideDown');
 }
 
 
@@ -66,3 +67,8 @@ $('.subheader li').eq(0).click(function(){loadIn(category)})
 $('.subheader li').eq(1).click(function(){loadIn(review)})
 $('.subheader li').eq(2).click(function(){loadIn(market)})
 $('.subheader li').eq(3).click(function(){loadIn(video)})
+
+$('.main-back').click(function(){
+  $('html').toggleClass('dark-html');
+  $('.subheader').toggleClass('dark-subheader');
+})
