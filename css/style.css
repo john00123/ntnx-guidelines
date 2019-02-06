@@ -329,9 +329,11 @@ header {
 }
 
 .page-subtitle {
+  border-left: 1px solid #D5DAE0;
   border-right: 1px solid #D5DAE0;
   height: 16px;
   padding: 0 20px;
+  margin-left: 20px;
   margin-right: 20px;
   line-height: 18px;
   text-overflow: ellipsis;
@@ -543,10 +545,14 @@ a:hover {
 }
 
 .dark-subheader .page-subtitle {
-  border-color: black;
+  border-color: #627386;
 }
 
 .dark-subheader li.active {
+  color: white;
+}
+
+.dark-subheader li:hover {
   color: white;
 }
 
@@ -560,4 +566,8 @@ a:hover {
   bottom: 0;
   box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.3);
   filter: blur(10px);
+}
+
+.dark-image {
+  background-color: #d3edfd;
 }

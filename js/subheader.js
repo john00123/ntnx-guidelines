@@ -11,14 +11,15 @@ const backArrow = `
 </svg>
 `
 
+
 //render header
 $('.subheader').append(`<div class='compress' hcd>
   <div class='back-section' hcs>
     ${backArrow}
     <h2 class='page-subtitle' hc >Illustration and Motion</h2>
-    <h3 alt> Illustration </h3>
+    <h3 class='level1' alt> Illustration </h3>
   </div>
-  <div class='' hcs>
+  <div class='navlinks' hcs>
     <li>Building Blocks</li>
     <li>Product </li>
     <li>Marketing</li>
@@ -26,6 +27,7 @@ $('.subheader').append(`<div class='compress' hcd>
   </div>
   </div>
 `);
+
 
 
 $('.subheader li').eq(0).addClass('active');

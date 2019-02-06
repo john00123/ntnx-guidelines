@@ -148,9 +148,13 @@ a:hover{
   color:white;
   border-bottom: none;
   overflow: hidden;
-  .page-subtitle{border-color: black;}
+  .page-subtitle{border-color: $grey-1;}
 
   li.active{
+    color:white;
+  }
+
+  li:hover{
     color:white;
   }
 
@@ -164,4 +168,8 @@ a:hover{
    bottom: 0;
    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
    filter: blur(10px);}
+}
+
+.dark-image{
+  background-color: $light-blue-2;
 }
