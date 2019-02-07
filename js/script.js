@@ -1,7 +1,7 @@
 const blocks = ['geometry','transportation','infrastructure','miscelaneous','tools','sports','signs', 'interface','buildings']
 const marketing = ['market']
 const product = ['empty_state','trigger','full_page']
-const video = ['json']
+const video = ['svg_animations']
 const content = $('.content')
 const pageName = ['blocks', 'product', 'marketing', 'video']
 const pageVar = [blocks, product, marketing, video]
@@ -17,7 +17,9 @@ function generate(page){
     let folder =`../img/${element}`
 
     content.append(`
-      <h3 class='title'>${element.replace('_',' ')}</h3>
+      <h3 class='title ${element}-title'>
+        ${element.replace('_',' ')}
+        ${element=='svg_animations'? `<br><br><a>Learn More</a>`:''}</h3>
       <div class='${element} grid'></div>`
     )
 
