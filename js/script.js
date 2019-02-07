@@ -1,9 +1,10 @@
-const category = ['geometry','transportation','infrastructure','miscelaneous','tools','sports','signs', 'interface','buildings']
-const market = ['market']
-const review = ['approved']
+const blocks = ['geometry','transportation','infrastructure','miscelaneous','tools','sports','signs', 'interface','buildings']
+const marketing = ['market']
+const product = ['approved']
 const video = ['gif','easter']
 const content = $('.content')
-const pageName = $('.level1')
+const pageName = ['blocks', 'product', 'marketing', 'video']
+const pageVar = [blocks, product, marketing, video]
 
 function generate(page){
   const content = $('.content');
@@ -73,28 +74,33 @@ function loadIn(page) {
 // page load
 
 $(window).on("load", function(){
-  loadIn(category)
+  loadIn(pageVar[3])
   pageName.text('Building Blocks')
 })
+
 $('.subheader li').eq(0).click(function(){
-  loadIn(category)
+  loadIn(blocks)
   pageName.text('Building Blocks')
 })
 $('.subheader li').eq(1).click(function(){
-  loadIn(review)
+  loadIn(product)
   pageName.text('Product')
 })
 $('.subheader li').eq(2).click(function(){
-  loadIn(market)
+  loadIn(marketing)
   pageName.text('Marketing')
 })
 $('.subheader li').eq(3).click(function(){
   loadIn(video)
   pageName.text('Video')
 })
-
 $('.main-back').click(function(){
   $('html').toggleClass('dark-html');
   $('.image').toggleClass('dark-image');
   $('.subheader').toggleClass('dark-subheader');
 })
+
+
+// lottie
+$('.subheader li').eq(3).click()
+$('.easter').append(`<div class='lottie'></div>`)
