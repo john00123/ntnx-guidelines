@@ -5,6 +5,7 @@ const video = ['gif','easter']
 const content = $('.content')
 const pageName = ['blocks', 'product', 'marketing', 'video']
 const pageVar = [blocks, product, marketing, video]
+const subtitle = $('.level1')
 
 function generate(page){
   const content = $('.content');
@@ -75,24 +76,24 @@ function loadIn(page) {
 
 $(window).on("load", function(){
   loadIn(pageVar[3])
-  pageName.text('Building Blocks')
+  subtitle.text('Building Blocks')
 })
 
 $('.subheader li').eq(0).click(function(){
-  loadIn(blocks)
-  pageName.text('Building Blocks')
+  loadIn(pageVar[0])
+  subtitle.text('Building Blocks')
 })
 $('.subheader li').eq(1).click(function(){
-  loadIn(product)
-  pageName.text('Product')
+  loadIn(pageVar[1])
+  subtitle.text('Product')
 })
 $('.subheader li').eq(2).click(function(){
-  loadIn(marketing)
-  pageName.text('Marketing')
+  loadIn(pageVar[2])
+  subtitle.text('Marketing')
 })
 $('.subheader li').eq(3).click(function(){
-  loadIn(video)
-  pageName.text('Video')
+  loadIn(pageVar[3])
+  subtitle.text('Video')
 })
 $('.main-back').click(function(){
   $('html').toggleClass('dark-html');
@@ -103,4 +104,13 @@ $('.main-back').click(function(){
 
 // lottie
 $('.subheader li').eq(3).click()
-$('.easter').append(`<div class='lottie'></div>`)
+$('.easter').append(`<div id='lottie'>jj</div>`)
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('lottie'), // Required
+  path: '/lottie/data.json', // Required
+  renderer: 'html', // Required
+  loop: true, // Optional
+  autoplay: true, // Optional
+  name: "Hello World", // Name for future reference. Optional.
+})
