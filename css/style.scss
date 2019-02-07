@@ -41,6 +41,10 @@ html{
   margin-bottom: 30px;
   color: $font-color-2;
 }
+
+.page-nav{
+  text-transform: capitalize;
+}
 .section-title{
   @include size(100%, 600px);
 }
@@ -140,8 +144,18 @@ a:hover{
 
 .dark-html{
   background-color: $dark-grey-1;
+  .page-selection{
+    background-color: #191B20;
+    li{color:white;}
+  }
 }
 
+.hamburger{
+  display: none;
+  @media only screen and (max-width: 600px){
+    display: flex;
+  }
+}
 
 .dark-subheader{
   background-color: #191B20;
@@ -158,6 +172,10 @@ a:hover{
     color:white;
   }
 
+  .hamburger:before, .hamburger:after, .patty{background-color: white}
+
+
+
   &:before{
    content: ‘’;
    width: 100%;
@@ -171,5 +189,56 @@ a:hover{
 }
 
 .dark-image{
-  background-color: $light-blue-2;
+  // background-color: $light-blue-2;
+}
+
+
+.double, .full_page-child{
+  grid-column: span 2;
+  grid-row: span 2;
+  height: 440px;
+
+  @media only screen and (max-width: 600px){
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+  }
+}
+
+
+.page-selection, .page-nav, ul{width: 100%}
+
+.page-selection{
+  position: fixed;
+  top: 120px;
+  display: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: auto;
+  background-color: $background-color-3;
+  left: 0;
+  @include shadow();
+
+  .page-nav{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul{
+    padding-top: 10px;
+    margin: auto;
+    width: 100%;
+    li{
+      font: $h2;
+      color: $font-color-1;
+      margin-left: -40px;
+      padding-left: 20px;
+      line-height: 40px;
+    }
+    li:nth-child(even){
+      background-color: rgba(0,0,0,0.01);
+    }
+  }
+
+
 }

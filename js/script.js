@@ -1,11 +1,13 @@
 const blocks = ['geometry','transportation','infrastructure','miscelaneous','tools','sports','signs', 'interface','buildings']
 const marketing = ['market']
-const product = ['approved']
-const video = ['gif','easter']
+const product = ['empty_state','trigger','full_page']
+const video = ['json']
 const content = $('.content')
 const pageName = ['blocks', 'product', 'marketing', 'video']
 const pageVar = [blocks, product, marketing, video]
 const subtitle = $('.level1')
+
+
 
 function generate(page){
   const content = $('.content');
@@ -15,7 +17,7 @@ function generate(page){
     let folder =`../img/${element}`
 
     content.append(`
-      <h3 class='title'>${element}</h3>
+      <h3 class='title'>${element.replace('_',' ')}</h3>
       <div class='${element} grid'></div>`
     )
 
@@ -64,7 +66,7 @@ function loadIn(page) {
     generate(page);
     setTimeout(function () {
       content.fadeIn('normal', function() {
-        //Stuff to do *after* the animation takes place
+        player()
       })
     }, 700);
   })
@@ -72,45 +74,47 @@ function loadIn(page) {
 }
 
 
+$('body').append(`<div class='page-selection'>
+  <div class='page-nav' vss>
+    <ul>
+    <li class='blocks'>${pageName[0]}</li>
+    <li class='product'>Product </li>
+    <li class='marketing'>Marketing</li>
+    <li class='video'>Video</li>
+    <ul>
+  </div>
+</div>`);
+
+$('.hamburger').click(function(){
+  $('.page-selection').slideToggle('normal');
+})
+
+
+
+
 // page load
 
 $(window).on("load", function(){
-  loadIn(pageVar[3])
-  subtitle.text('Building Blocks')
+  loadIn(pageVar[0])
+  subtitle.text(pageName[0])
 })
 
-$('.subheader li').eq(0).click(function(){
-  loadIn(pageVar[0])
-  subtitle.text('Building Blocks')
-})
-$('.subheader li').eq(1).click(function(){
-  loadIn(pageVar[1])
-  subtitle.text('Product')
-})
-$('.subheader li').eq(2).click(function(){
-  loadIn(pageVar[2])
-  subtitle.text('Marketing')
-})
-$('.subheader li').eq(3).click(function(){
-  loadIn(pageVar[3])
-  subtitle.text('Video')
-})
+function navigate(i){
+  $(`.${pageName[i]}`).click(function(){
+    $('.page-selection').slideUp('normal')
+    loadIn(pageVar[i])
+    subtitle.text(pageName[i])
+  })
+}
+
+navigate(0)
+navigate(1)
+navigate(2)
+navigate(3)
+
+
 $('.main-back').click(function(){
   $('html').toggleClass('dark-html');
   $('.image').toggleClass('dark-image');
   $('.subheader').toggleClass('dark-subheader');
-})
-
-
-// lottie
-$('.subheader li').eq(3).click()
-$('.easter').append(`<div id='lottie'>jj</div>`)
-
-var animation = bodymovin.loadAnimation({
-  container: document.getElementById('lottie'), // Required
-  path: '/lottie/data.json', // Required
-  renderer: 'html', // Required
-  loop: true, // Optional
-  autoplay: true, // Optional
-  name: "Hello World", // Name for future reference. Optional.
 })

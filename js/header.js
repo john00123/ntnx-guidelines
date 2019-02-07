@@ -16,8 +16,8 @@ const arrow =`
 </svg>`
 
 //render header
-$('header').append(`<div class='compress' hcs>
+$('header').append(`<div class='compress' hcd>
   <div hcd> ${nutanixLogo} <h3 class='page-title'>Illustration & Motion</h3> </div>
-  <div class='user-title' hcd> </div>
+  <div class='user-title main-back' hcd> ☉ </div>
   </div>
 `);

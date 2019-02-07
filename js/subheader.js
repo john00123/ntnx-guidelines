@@ -15,16 +15,17 @@ const backArrow = `
 //render header
 $('.subheader').append(`<div class='compress' hcd>
   <div class='back-section' hcs>
-    ${backArrow}
-    <h2 class='page-subtitle' hc >Illustration and Motion</h2>
+    <h2 class='page-subtitle' hc >Illustration · Motion</h2>
     <h3 class='level1' alt> Illustration </h3>
   </div>
   <div class='navlinks' hcs>
-    <li>Building Blocks</li>
-    <li>Product </li>
-    <li>Marketing</li>
-    <li>Video</li>
+    <li class='blocks'>Blocks</li>
+    <li class='product'>Product </li>
+    <li class='marketing'>Marketing</li>
+    <li class='video'>Video</li>
   </div>
+
+  <div class='hamburger'><span class='patty'></span></div>
   </div>
 `);
 

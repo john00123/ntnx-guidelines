@@ -19,16 +19,14 @@
 }
 
 .page-subtitle{
-  border-left: 1px solid $border-color-2;
   border-right: 1px solid $border-color-2;
   height: 16px;
-  padding: 0 20px;
-  margin-left: 20px;
+  padding-right: 20px;
   margin-right: 20px;
   line-height: 18px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  min-width: 10ch;
+  min-width: 11ch;
   overflow:hidden;
   display: inline;
 }
@@ -84,4 +82,36 @@ li{
 li:hover{
   color: $font-color-1;
   cursor: pointer;
+}
+
+
+.level1{
+  text-transform: capitalize;
+}
+
+//responsive
+
+.subheader li{
+  @media only screen and (max-width: 600px){
+    display: none;
+  }
+}
+
+
+
+.hamburger{
+  @include size(12px ,16px);
+  @include flex(center, space-between, row);
+
+  position: relative;
+  &:before, &:after, .patty{
+    content: '';
+    border-radius: 1px;
+    @include size(2px, 100%);
+    background: $font-color-1;
+    position: absolute;
+  }
+
+  &:before{top:0px}
+  &:after{bottom:0px}
 }
