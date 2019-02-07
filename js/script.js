@@ -66,11 +66,8 @@ function generate(page){
 function loadIn(page) {
   content.fadeOut('normal', function() {
     generate(page);
-    setTimeout(function () {
-      content.fadeIn('normal', function() {
-        player()
-      })
-    }, 700);
+    page == video? player(): null
+    setTimeout(function () { content.fadeIn('fast') }, 400);
   })
   content.removeClass('slideDown');
 }
@@ -80,9 +77,9 @@ $('body').append(`<div class='page-selection'>
   <div class='page-nav' vss>
     <ul>
     <li class='blocks'>${pageName[0]}</li>
-    <li class='product'>Product </li>
-    <li class='marketing'>Marketing</li>
-    <li class='video'>Video</li>
+    <li class='product'>${pageName[1]} </li>
+    <li class='marketing'>${pageName[2]}</li>
+    <li class='video'>${pageName[3]}</li>
     <ul>
   </div>
 </div>`);
