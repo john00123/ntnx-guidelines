@@ -98,5 +98,3 @@ $('.main-back').click(function(){
   $('.image').toggleClass('dark-image');
   $('.subheader').toggleClass('dark-subheader');
 })
-
-$('.main-back').click();
