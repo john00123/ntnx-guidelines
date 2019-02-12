@@ -32,22 +32,23 @@ function generate(page){
           if( val.match(/\.(jpe?g|png|svg|gif)$/)) {
 
             //image path
-            let cleanPath = val.replace(`/img/${element}/`,``)
-            .replace(`_`,` `).replace(`%20`,` `)
+            let assetName = val.replace(`/img/${element}/`, '');
+            let assetPath = `/img/${element}/${assetName}`;
+            let cleanPath = assetName.replace('_',' ').replace('%20',' ');
 
             //append images to the section
             $(`.${element}`).append( `
-              <a href="${val}" download>${
+              <a href="${assetPath}" download>${
                 $('.subheader').hasClass('dark-subheader')?
                 `<div class='image dark-image ${element}-child'
-                style='background-image:url(${val})'>
+                style='background-image:url(${assetPath})'>
                   ${element == 'marketing' ? `<span> In Review </span>`: ''}
                   <button>${cleanPath}</button>
                 </div>`
                 :
 
                 `<div class='image ${element}-child'
-                style='background-image:url(${val})'>
+                style='background-image:url(${assetPath})'>
                   ${element == 'marketing' ? `<span> In Review </span>`: ''}
                   <button>${cleanPath}</button>
                 </div>`
