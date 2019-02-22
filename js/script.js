@@ -9,52 +9,61 @@ const subtitle = $('.level1')
 
 
 
-function generate(page){
+function generate(page) {
   const content = $('.content');
   content.html('');
 
   page.map(element => {
-    let folder =`../img/${element}`
+    let folder = `../img/${element}`
 
-    content.append(`
+    content.append(
+      `${element == 'svg_animations'
+    ? `
+    <br><br><p sytle='max-width:80ch'>
+    Animations should use a quadratic tranformation models. <br><h2>UI</h2>In the case of appearing and transforming elements in UI choose a quadractic model decelerating to zero velocity ( easeOutQuad) <br> Make sure the composition does not exceed 600ms throught the animation.
+
+    <h2>Video</h2>
+
+    <kbd>cubic-bezier (0.165, 0.84, 0.44, 1)</kbd> </p></div>
+    `
+    : ''}
       <h3 class='title ${element}-title'>
-        ${element.replace('_',' ')}
-        ${element=='svg_animations'? `<br><br><a>Learn More</a>`:''}</h3>
-      <div class='${element} grid'></div>`
-    )
+        ${element.replace('_', ' ')}
+        </h3>
+
+      <div class='${element} grid'></div>`)
 
     $.ajax({
-      url    : folder,
-      success: function (data) {
-        $(data).find("a").attr("href", function (i, val) {
+      url: folder,
+      success: function(data) {
+        $(data).find("a").attr("href", function(i, val) {
 
           // if directory has files with the follwoing formats
-          if( val.match(/\.(jpe?g|png|svg|gif)$/)) {
+          if (val.match(/\.(jpe?g|png|svg|gif)$/)) {
 
             //image path
-            let cleanPath = val.replace(`/img/${element}/`,``)
-            .replace(`_`,` `).replace(`%20`,` `)
+            let cleanPath = val.replace(`/img/${element}/`, ``).replace(`_`, ` `).replace(`%20`, ` `)
 
             //append images to the section
-            $(`.${element}`).append( `
-              <a href="${val}" download>${
-                $('.subheader').hasClass('dark-subheader')?
-                `<div class='image dark-image ${element}-child'
+            $(`.${element}`).append(
+              `
+              <a href="${val}" download>${$('.subheader').hasClass('dark-subheader')
+              ? `<div class='image dark-image ${element}-child'
                 style='background-image:url(${val})'>
-                  ${element == 'marketing' ? `<span> In Review </span>`: ''}
+                  ${element == 'marketing'
+                ? `<span> In Review </span>`
+                : ''}
                   <button>${cleanPath}</button>
                 </div>`
-                :
-
-                `<div class='image ${element}-child'
+              : `<div class='image ${element}-child'
                 style='background-image:url(${val})'>
-                  ${element == 'marketing' ? `<span> In Review </span>`: ''}
+                  ${element == 'marketing'
+                ? `<span> In Review </span>`
+                : ''}
                   <button>${cleanPath}</button>
-                </div>`
-              }
+                </div>`}
 
-              </a>`
-            )
+              </a>`)
           }
 
         })
@@ -89,12 +98,10 @@ $('.hamburger').click(function(){
 })
 
 
-
-
 // page load
 
 $(window).on("load", function(){
-  loadIn(pageVar[0])
+  loadIn(pageVar[3])//
   subtitle.text(pageName[0])
 })
 

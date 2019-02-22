@@ -449,6 +449,25 @@ html {
   transition: background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+blockquote {
+  width: 100ch;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.comment {
+  background-color: #f4fbff;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+  color: #1b6dc6;
+  border-radius: 4px;
+  text-transform: none;
+}
+
 .content {
   display: flex;
   align-items: flex-start;
@@ -548,6 +567,10 @@ a:hover {
   cursor: pointer;
 }
 
+.market .image {
+  background-size: 150px;
+}
+
 .review {
   pointer-events: none;
   opacity: 0.3;
@@ -565,7 +588,7 @@ a:hover {
   margin-bottom: 10px;
   padding: 10px 12px;
   border-radius: 4pc;
-  opacity: 0;
+  opacity: 1;
   transform: translate3d(0, 5px, 0);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -580,6 +603,15 @@ a:hover {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   color: #22A5F7;
+}
+
+kbd {
+  font-family: 'Menlo';
+  color: #1856ad;
+  font-size: 13px;
+  background-color: #f4fbff;
+  padding: 5px 10px;
+  border-radius: 2px;
 }
 
 .dark-html {

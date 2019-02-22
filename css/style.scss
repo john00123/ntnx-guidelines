@@ -13,6 +13,22 @@ html{
   @include transition(background-color);
 }
 
+blockquote{
+  width: 100ch;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.comment{
+  background-color: $semi-white-blue;
+  @include size( auto, 100%);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+  color:$dark-blue-2;
+  border-radius: 4px;
+  text-transform: none;
+}
 
 .content{
   @include flex(flex-start, flex-start, column);
@@ -97,6 +113,11 @@ a:hover{
   }
 }
 
+.market{
+  .image{
+    background-size: 150px;
+  }
+}
 
 
 .review{
@@ -130,7 +151,7 @@ a:hover{
   margin-bottom: 10px;
   padding: 10px 12px;
   border-radius: 4pc;
-  opacity: 0;
+  opacity: 1;
   transform: translate3d(0, 5px, 0);
   @include transition(all);
 
@@ -145,6 +166,15 @@ a:hover{
   opacity: 1;
   transform: translate3d(0, 0, 0);
   color: $blue-1;
+}
+
+kbd{
+  font-family: 'Menlo';
+  color: $dark-blue-1;
+  font-size: 13px;
+  background-color: $semi-white-blue;
+  padding: 5px 10px;
+  border-radius: 2px;
 }
 
 //dark mode
@@ -216,6 +246,7 @@ a:hover{
 }
 
 
+
 .page-selection, .page-nav, ul{width: 100%}
 
 .page-selection{
@@ -249,6 +280,4 @@ a:hover{
       background-color: rgba(0,0,0,0.01);
     }
   }
-
-
 }

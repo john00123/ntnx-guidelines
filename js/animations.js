@@ -13,5 +13,4 @@ function player(){
       path: `js/lottie/${value}.json`
     });
   })
-
 }
