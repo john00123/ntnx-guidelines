@@ -48,12 +48,10 @@ blockquote{
 .grid{
   @include flex(flex-start, flex-start, column);
   @include size(auto, 100%);
-  @include grid(300px, 1fr, 30px);
+  @include grid(250px, 1fr, 30px);
   padding-bottom: 80px;
 
 }
-
-
 
 .title{
   text-transform: capitalize;
@@ -101,16 +99,25 @@ a:hover{
   background-color: #F2F4F6;
   width:100%;
   background-size: auto;
+  position: relative;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 60%;
   border-radius: 4px;
   padding: 10px;
   @include transition(all);
   position: relative;
   &:hover{
     cursor: pointer;
+    .download{
+      @include transition(opacity)
+      opacity: 1;
+    }
     // @include shadow();
   }
+}
+
+.download{
+  opacity: 0;
 }
 
 .market{
@@ -144,15 +151,22 @@ a:hover{
 // }
 
 .image button{
+  width: 100%;
   border: none;
+  color: $font-color-1;
   pointer-events: none;
-  color:$font-color-2;
-  background: white;
+  background: darken($light-grey-3, 3);
   margin-bottom: 10px;
-  padding: 10px 12px;
-  border-radius: 4pc;
+
+  padding: 15px;
+  border-radius: 4px 4px 0 0 ;
   opacity: 1;
-  transform: translate3d(0, 5px, 0);
+  position:absolute;
+  top: -2px;
+  text-align: left;
+  left: 0;
+  width: 100%;
+  text-transform: capitalize;
   @include transition(all);
 
 
@@ -162,12 +176,6 @@ a:hover{
 }
 
 
-.image:hover button{
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-  color: $blue-1;
-}
-
 kbd{
   font-family: 'Menlo';
   color: $dark-blue-1;
@@ -176,6 +184,7 @@ kbd{
   padding: 5px 10px;
   border-radius: 2px;
 }
+
 
 //dark mode
 

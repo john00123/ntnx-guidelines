@@ -44,7 +44,7 @@ function generate(page) {
             //image path
             let assetName = val.replace(`/img/${element}/`, '');
             let assetPath = `/img/${element}/${assetName}`;
-            let cleanPath = assetName.replace('_',' ').replace('%20',' ');
+            let cleanPath = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
 
             //append images to the section
             $(`.${element}`).append( `
@@ -53,14 +53,14 @@ function generate(page) {
                 `<div class='image dark-image ${element}-child'
                 style='background-image:url(${assetPath})'>
                   ${element == 'marketing' ? `<span> In Review </span>`: ''}
-                  <button>${cleanPath}</button>
+                  <button hcd><span>${cleanPath}</span><span>↓</span> </button>
                 </div>`
                 :
 
                 `<div class='image ${element}-child'
                 style='background-image:url(${assetPath})'>
                   ${element == 'marketing' ? `<span> In Review </span>`: ''}
-                  <button>${cleanPath}</button>
+                  <button hcd><span>${cleanPath}</span><span class='download' style='opacity','0'>↓</span>
                 </div>`}
 
               </a>`)
@@ -101,7 +101,7 @@ $('.hamburger').click(function(){
 // page load
 
 $(window).on("load", function(){
-  loadIn(pageVar[3])//
+  loadIn(pageVar[1])//
   subtitle.text(pageName[0])
 })
 

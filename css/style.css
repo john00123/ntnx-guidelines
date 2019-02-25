@@ -497,7 +497,7 @@ blockquote {
   width: 100%;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px;
   padding-bottom: 80px;
 }
@@ -555,8 +555,9 @@ a:hover {
   background-color: #F2F4F6;
   width: 100%;
   background-size: auto;
+  position: relative;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 60%;
   border-radius: 4px;
   padding: 10px;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -565,6 +566,15 @@ a:hover {
 
 .image:hover {
   cursor: pointer;
+}
+
+.image:hover .download {
+  transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 1;
+}
+
+.download {
+  opacity: 0;
 }
 
 .market .image {
@@ -581,15 +591,21 @@ a:hover {
 }
 
 .image button {
+  width: 100%;
   border: none;
+  color: #22272E;
   pointer-events: none;
-  color: #627386;
-  background: white;
+  background: #e9ecf0;
   margin-bottom: 10px;
-  padding: 10px 12px;
-  border-radius: 4pc;
+  padding: 15px;
+  border-radius: 4px 4px 0 0;
   opacity: 1;
-  transform: translate3d(0, 5px, 0);
+  position: absolute;
+  top: -2px;
+  text-align: left;
+  left: 0;
+  width: 100%;
+  text-transform: capitalize;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -597,12 +613,6 @@ a:hover {
   .image button {
     opacity: 1;
   }
-}
-
-.image:hover button {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-  color: #22A5F7;
 }
 
 kbd {
