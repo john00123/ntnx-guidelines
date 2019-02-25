@@ -7,12 +7,15 @@ const pageName = ['blocks', 'product', 'marketing', 'video']
 const pageVar = [blocks, product, marketing, video]
 const subtitle = $('.level1')
 
+let itemLists = []
 
 
 function generate(page) {
   const content = $('.content');
   content.html('');
-
+content.prepend(`<div fw>
+  <label > Search</label>
+  <input style='margin: 10px 0 20px 0; 'id='search' onkeyup='filter()' value='' placeholder='search'/></div>`)
   page.map(element => {
     let folder = `../img/${element}`
 
@@ -46,20 +49,23 @@ function generate(page) {
             let assetPath = `/img/${element}/${assetName}`;
             let cleanPath = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
 
+            itemLists.push(cleanPath)
+
+
             //append images to the section
             $(`.${element}`).append( `
-              <a href="${assetPath}" download>${
+              <a href="${assetPath}" class='${assetName.replace('.svg','').toLowerCase()}' download>${
                 $('.subheader').hasClass('dark-subheader')?
                 `<div class='image dark-image ${element}-child'
                 style='background-image:url(${assetPath})'>
-                  ${element == 'marketing' ? `<span> In Review </span>`: ''}
+
                   <button hcd><span>${cleanPath}</span><span>↓</span> </button>
                 </div>`
                 :
 
                 `<div class='image ${element}-child'
                 style='background-image:url(${assetPath})'>
-                  ${element == 'marketing' ? `<span> In Review </span>`: ''}
+
                   <button hcd><span>${cleanPath}</span><span class='download' style='opacity','0'>↓</span>
                 </div>`}
 

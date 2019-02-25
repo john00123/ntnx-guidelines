@@ -699,6 +699,10 @@ kbd {
   }
 }
 
+.togglelicious {
+  grid-template-rows: auto auto;
+}
+
 .page-selection, .page-nav, ul {
   width: 100%;
 }
