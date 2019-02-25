@@ -48,7 +48,7 @@ blockquote{
 .grid{
   @include flex(flex-start, flex-start, column);
   @include size(auto, 100%);
-  @include grid(250px, 1fr, 30px);
+  @include grid(300px, 1fr, 30px);
   padding-bottom: 80px;
 
 }
