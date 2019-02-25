@@ -20,16 +20,7 @@ content.prepend(`<div fw>
     let folder = `../img/${element}`
 
     content.append(
-      `${element == 'svg_animations'
-    ? `
-    <br><br><p sytle='max-width:80ch'>
-    Animations should use a quadratic tranformation models. <br><h2>UI</h2>In the case of appearing and transforming elements in UI choose a quadractic model decelerating to zero velocity ( easeOutQuad) <br> Make sure the composition does not exceed 600ms throught the animation.
-
-    <h2>Video</h2>
-
-    <kbd>cubic-bezier (0.165, 0.84, 0.44, 1)</kbd> </p></div>
-    `
-    : ''}
+      `
       <h3 class='title ${element}-title'>
         ${element.replace('_', ' ')}
         </h3>
