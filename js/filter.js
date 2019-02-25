@@ -9,4 +9,6 @@ function filter(){
   $('a').find(`:contains('${searchValue}')`).show()
   $('a').find(`:contains('${searchValue}')`).parentsUntil($('container')).show()
   searchValue === '' ? $('h3').show():$('h3').hide()
+
+  searchValue === '' ? $('.grid').css('padding-bottom','80px') : $('.grid').css('padding-bottom','30px')
 }
