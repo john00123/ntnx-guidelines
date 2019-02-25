@@ -686,7 +686,7 @@ kbd {
 }
 
 .double, .full_page-child {
-  grid-column: span 2;
+  grid-column: span 3;
   grid-row: span 2;
   height: 640px;
 }

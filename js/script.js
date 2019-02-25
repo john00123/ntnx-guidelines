@@ -1,4 +1,4 @@
-const blocks = ['geometry','transportation','infrastructure','miscelaneous','tools','sports','signs', 'interface','buildings']
+const blocks = ['infrastructure','interface','miscelaneous','tools','sports','signs','geometry','transportation','buildings']
 const marketing = ['market']
 const product = ['empty_state','trigger','full_page']
 const video = ['svg_animations']
@@ -101,7 +101,7 @@ $('.hamburger').click(function(){
 // page load
 
 $(window).on("load", function(){
-  loadIn(pageVar[1])//
+  loadIn(pageVar[0])//
   subtitle.text(pageName[0])
 })
 
