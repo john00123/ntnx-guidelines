@@ -13,9 +13,12 @@ let itemLists = []
 function generate(page) {
   const content = $('.content');
   content.html('');
-content.prepend(`<div fw>
+content.prepend(`<div hcd>
+  <div style='width:330px'>
   <label > Search</label>
-  <input style='margin: 10px 0 20px 0; 'id='search' onkeyup='filter()' value='' placeholder='search'/></div>`)
+  <input style='margin: 10px 0 20px 0; 'id='search' onkeyup='filter()' value='' placeholder='search'/>
+  </div>
+  </div>`)
   page.map(element => {
     let folder = `../img/${element}`
 
