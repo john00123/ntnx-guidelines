@@ -17,7 +17,7 @@ const arrow =`
 
 //render header
 $('header').append(`<div class='compress' hcd>
-  <div hcd> ${nutanixLogo} <h3 class='page-title'>Illustration & Motion</h3> </div>
+  <div hcd> ${nutanixLogo} <h3 class='page-title'>Nutanix Library</h3> </div>
   <div class='user-title main-back' hcd> ☉ </div>
   </div>
 `);

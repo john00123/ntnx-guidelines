@@ -336,7 +336,7 @@ header {
   line-height: 18px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  min-width: 11ch;
+  min-width: 90px;
   overflow: hidden;
   display: inline;
 }
@@ -740,4 +740,14 @@ kbd {
 
 .page-selection ul li:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.01);
+}
+
+#search {
+  border-color: transparent;
+  background-color: transparent;
+  position: relative;
+}
+
+.search-icon {
+  margin-left: 20px;
 }

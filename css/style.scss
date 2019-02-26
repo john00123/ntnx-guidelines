@@ -19,6 +19,8 @@ blockquote{
   margin: 0;
 }
 
+
+
 .comment{
   background-color: $semi-white-blue;
   @include size( auto, 100%);
@@ -291,4 +293,14 @@ kbd{
       background-color: rgba(0,0,0,0.01);
     }
   }
+}
+
+#search{
+  border-color: transparent;
+  background-color: transparent;
+  position: relative;
+}
+
+.search-icon{
+  margin-left: 20px;
 }

@@ -13,12 +13,12 @@ let itemLists = []
 function generate(page) {
   const content = $('.content');
   content.html('');
-content.prepend(`<div hcd>
-  <div style='width:330px'>
-  <label > Search</label>
-  <input style='margin: 10px 0 20px 0; 'id='search' onkeyup='filter()' value='' placeholder='search'/>
-  </div>
-  </div>`)
+// content.prepend(`<div hcd>
+//   <div style='width:330px'>
+//   <label > Search</label>
+//   <input style='margin: 10px 0 20px 0; 'id='search' onkeyup='filter()' value='' placeholder='search'/>
+//   </div>
+//   </div>`)
   page.map(element => {
     let folder = `../img/${element}`
 
@@ -103,6 +103,7 @@ $('.hamburger').click(function(){
 $(window).on("load", function(){
   loadIn(pageVar[0])//
   subtitle.text(pageName[0])
+  document.getElementById("search").value = "";
 })
 
 function navigate(i){
@@ -110,6 +111,7 @@ function navigate(i){
     $('.page-selection').slideUp('normal')
     loadIn(pageVar[i])
     subtitle.text(pageName[i])
+    document.getElementById("search").value = "";
   })
 }
 

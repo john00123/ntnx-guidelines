@@ -8,7 +8,7 @@ function filter(){
   $('a').find(`:not(:contains('${searchValue}'))`).parentsUntil($('container')).hide()
   $('a').find(`:contains('${searchValue}')`).show()
   $('a').find(`:contains('${searchValue}')`).parentsUntil($('container')).show()
-  searchValue === '' ? $('h3').show():$('h3').hide()
+  searchValue === '' ? $('container').find('h3').show():$('container').find('h3').hide()
 
   searchValue === '' ? $('.grid').css('padding-bottom','80px') : $('.grid').css('padding-bottom','30px')
 }
