@@ -11,6 +11,7 @@ html{
   background-color: white;
   overflow-y:scroll;
   @include transition(background-color);
+  transition-duration: 200ms;
 }
 
 blockquote{

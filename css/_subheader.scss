@@ -5,7 +5,6 @@
   @include flex(center, space-between, row);
   background: $white;
   padding   : 0 20px;
-
 }
 
 .subheader{
@@ -13,9 +12,12 @@
   left: 0;
   position: fixed;
   transform: translate3d(0px, -120px, 0px);
-  @include transition(transform);
-  will-change: transform;
+
   z-index: 5;
+  transition:
+    transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
+    background-color 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  will-change: transform, background-color;
 }
 
 .page-subtitle{
