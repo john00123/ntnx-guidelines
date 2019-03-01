@@ -3,74 +3,48 @@ const marketing = ['market']
 const product = ['empty_state','error','trigger','full_page']
 const video = ['svg_animations']
 const content = $('.content')
-const pageName = ['blocks', 'product', 'marketing', 'video']
+const pageName = ['blocks', 'product', 'marketing', 'video', 'icons']
 const pageVar = [blocks, product, marketing, video]
 const subtitle = $('.level1')
 
-let itemLists = []
-
 
 function generate(page) {
-  const content = $('.content');
-  content.html('');
-// content.prepend(`<div hcd>
-//   <div style='width:330px'>
-//   <label > Search</label>
-//   <input style='margin: 10px 0 20px 0; 'id='search' onkeyup='filter()' value='' placeholder='search'/>
-//   </div>
-//   </div>`)
+  const content = $('.content')
+  content.html('') //clear page
+
   page.map(element => {
     let folder = `../img/${element}`
+    let title = element.replace('_', ' ')
 
     content.append(
-      `
-      <h3 class='title ${element}-title'>
-        ${element.replace('_', ' ')}
-        </h3>
+      `<h3 class='title ${element}-title'> ${title}</h3>
+       <div class='${element} grid'></div>`
+     ) // pre create grid
 
-      <div class='${element} grid'></div>`)
+    $.ajax( { url: folder, success: function(data) {
+      $(data).find("a").attr("href", function(i, val) {
+      if (val.match(/\.(jpe?g|png|svg|gif)$/)) {
 
-    $.ajax({
-      url: folder,
-      success: function(data) {
-        $(data).find("a").attr("href", function(i, val) {
+        //image path
+        let assetName  = val.replace(`/img/${element}/`, '')
+        let assetPath  = `/img/${element}/${assetName}`
+        let darkModeOn = $('.subheader').hasClass('dark-subheader')
+        let cleanPath  = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
 
-          // if directory has files with the follwoing formats
-          if (val.match(/\.(jpe?g|png|svg|gif)$/)) {
-
-            //image path
-            let assetName = val.replace(`/img/${element}/`, '');
-            let assetPath = `/img/${element}/${assetName}`;
-            let cleanPath = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
-
-            itemLists.push(cleanPath)
-
-
-            //append images to the section
-            $(`.${element}`).append( `
-              <a href="${assetPath}" class='${assetName.replace('.svg','').toLowerCase()}' download>${
-                $('.subheader').hasClass('dark-subheader')?
-                `<div class='image dark-image ${element}-child'
-                style='background-image:url(${assetPath})'>
-
-                  <button hcd><span>${cleanPath}</span><span>↓</span> </button>
-                </div>`
-                :
-
-                `<div class='image ${element}-child'
-                style='background-image:url(${assetPath})'>
-
-                  <button hcd><span>${cleanPath}</span><span class='download' style='opacity','0'>↓</span>
-                </div>`}
-
-              </a>`)
-          }
-
+        //append image container to the section
+        $(`.${element}`).append( `
+          <a href="${assetPath}" class='${cleanPath}' download>
+          <div class='image ${darkModeOn ? 'dark-image ':''} ${element}-child' style='background-image:url(${assetPath})'>
+            <button hcd> <span>${cleanPath}</span>
+              <span class='download' style='opacity','0'>↓</span>
+            </button>
+          </div>
+          </a>`)
+        }
         })
-      }
-    })
-  })
-}
+      }}) //end of ajax call
+  }) // end of mapping
+} // end of page generation
 
 function loadIn(page) {
   content.fadeOut('normal', function() {
@@ -82,20 +56,19 @@ function loadIn(page) {
 }
 
 
-$('body').append(`<div class='page-selection'>
-  <div class='page-nav' vss>
-    <ul>
-    <li class='blocks'>${pageName[0]}</li>
-    <li class='product'>${pageName[1]} </li>
-    <li class='marketing'>${pageName[2]}</li>
-    <li class='video'>${pageName[3]}</li>
-    <ul>
-  </div>
-</div>`);
+//hamburger
 
-$('.hamburger').click(function(){
-  $('.page-selection').slideToggle('normal');
+$('body').append(`
+  <div class='page-selection'>
+    <div class='page-nav' vss> <ul></ul> </div>
+  </div>`)
+
+pageName.map( page => {
+  $('.page-nav ul, .navlinks').append(`<li class='${page}'>${page}</li>`)
 })
+
+
+$('.hamburger').click(() => $('.page-selection').slideToggle('fast'))
 
 
 // page load
@@ -121,8 +94,11 @@ navigate(2)
 navigate(3)
 
 
-$('.main-back').click(function(){
+//dark darkModeOn
+
+function darkMode (){
   $('html').toggleClass('dark-html');
   $('.image').toggleClass('dark-image');
   $('.subheader').toggleClass('dark-subheader');
-})
+}
+$('.main-back').click(darkMode)

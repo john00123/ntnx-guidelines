@@ -18,12 +18,7 @@ $('.subheader').append(`<div class='compress' hcd>
     <h2 class='page-subtitle' hc >Illustrations</h2>
     <h3 class='level1' alt> Blocks  · </h3> ${search} <input id='search' onkeyup='filter()' value='' placeholder='All Results'/>
   </div>
-  <div class='navlinks' hcs>
-    <li class='blocks'>Blocks</li>
-    <li class='product'>Product </li>
-    <li class='marketing'>Marketing</li>
-    <li class='video'>Video</li>
-  </div>
+  <div class='navlinks' hcs></div>
 
   <div class='hamburger'><span class='patty'></span></div>
   </div>
