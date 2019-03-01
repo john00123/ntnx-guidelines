@@ -1,6 +1,6 @@
 const blocks = ['infrastructure','interface','miscelaneous','tools','sports','signs','geometry','transportation','buildings']
 const marketing = ['market']
-const product = ['empty_state','trigger','full_page']
+const product = ['empty_state','error','trigger','full_page']
 const video = ['svg_animations']
 const content = $('.content')
 const pageName = ['blocks', 'product', 'marketing', 'video']
