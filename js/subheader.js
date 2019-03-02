@@ -13,19 +13,19 @@ const backArrow = `
 
 
 //render header
-$('.subheader').append(`<div class='compress' hcd>
-  <div class='back-section' hcs>
-    <h2 class='page-subtitle' hc >Illustrations</h2>
-    <h3 class='level1' alt> Blocks  · </h3> ${search} <input id='search' onkeyup='filter()' value='' placeholder='All Results'/>
-  </div>
-  <div class='navlinks' hcs></div>
-
-  <div class='hamburger'><span class='patty'></span></div>
+$('.subheader').append(`
+  <div class='compress' hcd>
+    <div class='back-section' hcs>
+      <h2 class='page-subtitle' hc >Illustrations</h2>
+      <h3 class='level1' alt></h3> ${search}
+      <input id='search' onkeyup='filter()' value='' placeholder='All Results'/>
+    </div>
+    <div class='navlinks' hcs></div>
+    <div class='hamburger'><span class='patty'></span></div>
   </div>
 `);
 
-
-
+//active selection
 $('.subheader li').eq(0).addClass('active');
 
 $('.subheader li').click(function(){
@@ -33,11 +33,12 @@ $('.subheader li').click(function(){
   $(this).addClass('active')
 });
 
+
 $(window).on("load", function() {
-  setTimeout(function () {
-    $('.subheader').addClass('slideDown');
-    $('container').addClass('slideDown');
-    $('body').scrollTop(0);
-  }, 600);
+
+  $('.subheader').addClass('slideDown');
+  $('container').addClass('slideDown');
+  $('body').scrollTop(0);
+
 
 });

@@ -1,6 +1,6 @@
 const blocks = ['infrastructure','interface','miscelaneous','tools','sports','signs','geometry','transportation','buildings']
 const marketing = ['market']
-const product = ['empty_state','error','trigger','full_page']
+const product = ['empty_state','xi_iot','error','trigger','full_page']
 const video = ['svg_animations']
 const content = $('.content')
 const pageName = ['blocks', 'product', 'marketing', 'video', 'icons']
@@ -31,9 +31,10 @@ function generate(page) {
         let darkModeOn = $('.subheader').hasClass('dark-subheader')
         let cleanPath  = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
 
+
         //append image container to the section
         $(`.${element}`).append( `
-          <a href="${assetPath}" class='${cleanPath}' download>
+          <a href="${assetPath}" class='${assetName.replace('.svg','')}' download>
           <div class='image ${darkModeOn ? 'dark-image ':''} ${element}-child' style='background-image:url(${assetPath})'>
             <button hcd> <span>${cleanPath}</span>
               <span class='download' style='opacity','0'>↓</span>
@@ -46,6 +47,7 @@ function generate(page) {
   }) // end of mapping
 } // end of page generation
 
+//pageLoad
 function loadIn(page) {
   content.fadeOut('normal', function() {
     generate(page);
@@ -63,6 +65,7 @@ $('body').append(`
     <div class='page-nav' vss> <ul></ul> </div>
   </div>`)
 
+
 pageName.map( page => {
   $('.page-nav ul, .navlinks').append(`<li class='${page}'>${page}</li>`)
 })
@@ -72,7 +75,6 @@ $('.hamburger').click(() => $('.page-selection').slideToggle('fast'))
 
 
 // page load
-
 $(window).on("load", function(){
   loadIn(pageVar[0])//
   subtitle.text(pageName[0])
