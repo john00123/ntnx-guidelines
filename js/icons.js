@@ -1,10 +1,8 @@
-const blocks = ['infrastructure','interface','miscelaneous','tools','sports','signs','geometry','transportation','buildings']
-const marketing = ['market']
-const product = ['empty_state','xi_iot','error','trigger','full_page']
-const video = ['svg_animations']
+
+const icons = ['core_icons']
 const content = $('.content')
-const pageName = ['blocks', 'product', 'marketing', 'video']
-const pageVar = [blocks, product, marketing, video]
+const pageName = ['icons']
+const pageVar = [icons]
 const subtitle = $('.level1')
 
 
@@ -51,10 +49,11 @@ function generate(page) {
 function loadIn(page) {
   content.fadeOut('normal', function() {
     generate(page);
-    page == video? player(): null
+    page == icons? $('.grid').addClass('icon-grid'): null
     setTimeout(function () { content.fadeIn('fast') }, 400)
   })
   content.removeClass('slideDown');
+  $('.page-subtitle').text('Icons');
 }
 
 
@@ -92,10 +91,6 @@ function navigate(i){
 
 
 navigate(0)
-navigate(1)
-navigate(2)
-navigate(3)
-
 
 //dark darkModeOn
 

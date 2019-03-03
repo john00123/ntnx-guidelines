@@ -53,7 +53,17 @@ blockquote{
   @include size(auto, 100%);
   @include grid(300px, 1fr, 30px);
   padding-bottom: 80px;
+}
 
+.icon-grid{
+  @include grid(142px, 142px, 30px);
+  .image{
+    height: 142px;
+  }
+
+  @media only screen and (max-width: 600px){
+    @include grid(142px, 1fr, 30px);
+  }
 }
 
 .title{
@@ -198,18 +208,18 @@ kbd{
   }
 }
 
-.hamburger{
-  display: none;
-  @media only screen and (max-width: 600px){
-    display: flex;
-  }
-}
 
 .dark-subheader{
   background-color: #191B20;
   color:white;
   border-bottom: none;
   overflow: hidden;
+  #search{
+    &::placeholder{color:$background-color-2};
+    color:$white
+  }
+
+  .search-icon path{fill:$background-color-2!important;}
   .page-subtitle{border-color: $grey-1;}
 
   li.active{
@@ -221,8 +231,6 @@ kbd{
   }
 
   .hamburger:before, .hamburger:after, .patty{background-color: white}
-
-
 
   &:before{
    content: ‘’;
@@ -293,14 +301,4 @@ kbd{
       background-color: rgba(0,0,0,0.01);
     }
   }
-}
-
-#search{
-  border-color: transparent;
-  background-color: transparent;
-  position: relative;
-}
-
-.search-icon{
-  margin-left: 20px;
 }

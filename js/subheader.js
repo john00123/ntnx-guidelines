@@ -16,7 +16,7 @@ const backArrow = `
 $('.subheader').append(`
   <div class='compress' hcd>
     <div class='back-section' hcs>
-      <h2 class='page-subtitle' hc >Illustrations</h2>
+      <h2 class='page-subtitle' hcs >Illustrations</h2>
       <h3 class='level1' alt></h3> ${search}
       <input id='search' onkeyup='filter()' value='' placeholder='All Results'/>
     </div>
@@ -35,10 +35,7 @@ $('.subheader li').click(function(){
 
 
 $(window).on("load", function() {
-
   $('.subheader').addClass('slideDown');
   $('container').addClass('slideDown');
   $('body').scrollTop(0);
-
-
 });

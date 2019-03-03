@@ -334,10 +334,6 @@ header {
   padding-right: 20px;
   margin-right: 20px;
   line-height: 18px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  min-width: 90px;
-  overflow: hidden;
   display: inline;
 }
 
@@ -377,6 +373,13 @@ li {
   font-weight: 500;
   margin-left: 30px;
   position: relative;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  li {
+    font-size: 16px;
+  }
 }
 
 .active {
@@ -401,6 +404,28 @@ li:hover {
 
 .level1 {
   text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  .level1 {
+    font-size: 16px;
+  }
+}
+
+#search {
+  border-color: transparent;
+  background-color: transparent;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  #search {
+    font-size: 16px;
+  }
+}
+
+.search-icon {
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -436,6 +461,16 @@ li:hover {
 
 .hamburger:after {
   bottom: 0px;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
 }
 
 html {
@@ -501,6 +536,24 @@ blockquote {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 30px;
   padding-bottom: 80px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(142px, 142px));
+  grid-gap: 30px;
+}
+
+.icon-grid .image {
+  height: 142px;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(142px, 1fr));
+    grid-gap: 30px;
+  }
 }
 
 .title {
@@ -637,21 +690,23 @@ kbd {
   color: white;
 }
 
-.hamburger {
-  display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  .hamburger {
-    display: flex;
-  }
-}
-
 .dark-subheader {
   background-color: #191B20;
   color: white;
   border-bottom: none;
   overflow: hidden;
+}
+
+.dark-subheader #search {
+  color: #FFFFFF;
+}
+
+.dark-subheader #search::placeholder {
+  color: #37414B;
+}
+
+.dark-subheader .search-icon path {
+  fill: #37414B !important;
 }
 
 .dark-subheader .page-subtitle {
@@ -741,14 +796,4 @@ kbd {
 
 .page-selection ul li:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.01);
-}
-
-#search {
-  border-color: transparent;
-  background-color: transparent;
-  position: relative;
-}
-
-.search-icon {
-  margin-left: 20px;
 }
