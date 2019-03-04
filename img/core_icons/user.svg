@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.89969639,7.26162515 C3.70678186,8.02903386 4.79839091,8.5 6,8.5 C7.20207083,8.5 8.29405708,8.02867184 9.1012339,7.26074034 L10.7137606,8.22825637 C11.5117398,8.70704386 12,9.5694044 12,10.5 L12,11 C12,11.5522847 11.5522847,12 11,12 L1,12 C0.44771525,12 1.02133251e-16,11.5522847 3.44978758e-17,11 L6.25174681e-15,10.5 C1.02702337e-14,9.56945596 0.488411653,8.70719606 1.28652175,8.22872717 L2.89969639,7.26162515 Z M6,1.18215803e-17 C7.65685425,-2.92537608e-16 9,1.34314575 9,3 L9,4 C9,5.65685425 7.65685425,7 6,7 C4.34314575,7 3,5.65685425 3,4 L3,3 C3,1.34314575 4.34314575,3.16180768e-16 6,1.18215803e-17 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-User">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="user" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.0195,3.0137 L2.0195,2.9867 C1.4665,2.9847 1.0205,2.5347 1.0225,1.9837 C1.0235,1.4307 1.4725,0.9847 2.0255,0.9867 L10.0255,1.0137 C10.5775,1.0157 11.0235,1.4647 11.0225,2.0167 C11.0205,2.5697 10.5715,3.0157 10.0195,3.0137 Z M10.0078,7.0137 L2.0088,6.9867 C1.4558,6.9847 1.0098,6.5347 1.0108,5.9837 C1.0128,5.4307 1.4618,4.9847 2.0138,4.9867 L10.0138,5.0137 C10.5668,5.0157 11.0128,5.4647 11.0108,6.0167 C11.0098,6.5697 10.5608,7.0157 10.0078,7.0137 Z M9.9971,11.0137 L1.9971,10.9867 C1.4451,10.9847 0.9981,10.5347 1.0001,9.9837 C1.0021,9.4307 1.4501,8.9847 2.0031,8.9867 L10.0031,9.0137 C10.5551,9.0157 11.0021,9.4647 11.0001,10.0167 C10.9981,10.5697 10.5501,11.0157 9.9971,11.0137 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-List" transform="translate(-1.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="hamburger" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

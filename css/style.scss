@@ -56,13 +56,13 @@ blockquote{
 }
 
 .icon-grid{
-  @include grid(142px, 142px, 30px);
+  @include grid(200px, 1fr, 30px);
   .image{
-    height: 142px;
+    height: 200px;
   }
 
   @media only screen and (max-width: 600px){
-    @include grid(142px, 1fr, 30px);
+    @include grid(200px, 1fr, 30px);
   }
 }
 
@@ -149,19 +149,6 @@ a:hover{
   background-size: 30px;
 }
 
-// .approved {
-//    a:nth-child(1),a:nth-child(10), a:nth-child(14), a:nth-child(17),a:nth-child(29){
-//     grid-column: span 2;
-//     grid-row: span 2;
-//     background-size: cover;
-//     .image{height: 440px;}
-//     @media only screen and (max-width: 600px){
-//       grid-column: span 1;
-//       grid-row: span 1;
-//       .image{height: 200px;}
-//     }
-//   }
-// }
 
 .image button{
   width: 100%;

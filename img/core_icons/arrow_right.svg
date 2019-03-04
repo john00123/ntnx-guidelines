@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>arrow_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.7354,5.4351 L7.6194,2.0051 C7.1404,1.6061 6.4134,1.9471 6.4134,2.5701 L6.4134,5.0001 L1.0014,5.0001 C0.4484,5.0001 0.0014,5.4481 0.0014,6.0001 C0.0014,6.5521 0.4484,7.0001 1.0014,7.0001 L6.4134,7.0001 L6.4134,9.4301 C6.4134,10.0531 7.1404,10.3941 7.6194,9.9951 L11.7354,6.5651 C12.0884,6.2711 12.0884,5.7291 11.7354,5.4351" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Transfer" transform="translate(0.000000, -1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="arrow_right" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

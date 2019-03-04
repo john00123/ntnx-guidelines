@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>alert</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.87789557,1.60947522 L11.1933534,9.52114787 C11.4578161,10.0059962 11.2791583,10.6134328 10.7943099,10.8778956 C10.6474213,10.9580166 10.4827768,11 10.3154578,11 L1.68454219,11 C1.13225744,11 0.68454219,10.5522847 0.68454219,10 C0.68454219,9.83268101 0.726525562,9.66803647 0.806646617,9.52114787 L5.12210443,1.60947522 C5.38656716,1.12462688 5.99400379,0.945969046 6.47885213,1.21043177 C6.64741865,1.30237715 6.7859502,1.4409087 6.87789557,1.60947522 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Anomaly" transform="translate(0.000000, -1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="alert" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

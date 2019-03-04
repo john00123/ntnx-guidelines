@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>run</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,2.6147 L2,9.3857 C2,10.3017 3,10.8677 3.786,10.3957 L9.428,7.0107 C10.191,6.5527 10.191,5.4467 9.428,4.9897 L3.786,1.6037 C3,1.1327 2,1.6977 2,2.6147" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Run" transform="translate(-2.000000, -1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="run" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

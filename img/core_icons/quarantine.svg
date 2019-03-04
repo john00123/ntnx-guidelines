@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>quarantine</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.998,6 L5.998,10.498 C3.518,10.498 1.5,8.48 1.5,6 L5.996,5.998 L5.996,1.502 C8.478,1.502 10.496,3.52 10.496,6 L5.998,6 Z M0,6 C0,9.313 2.686,12 6,12 C9.313,12 12,9.313 12,6 C12,2.687 9.313,0 6,0 C2.686,0 0,2.687 0,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Quarantine">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="quarantine" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

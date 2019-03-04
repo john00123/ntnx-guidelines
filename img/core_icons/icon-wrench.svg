@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-wrench</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.6763,2.5811 C11.6103,2.4191 11.3893,2.3831 11.2643,2.5071 L9.3153,4.4561 C9.0923,4.6801 8.7133,4.6621 8.4683,4.4181 L7.5833,3.5321 C7.3383,3.2871 7.3213,2.9081 7.5443,2.6851 L9.4933,0.7351 C9.6173,0.6111 9.5813,0.3911 9.4193,0.3241 C7.9703,-0.2679 6.2983,-0.0479 5.2763,0.9741 C4.2353,2.0151 4.0153,3.5811 4.5563,4.9701 L0.5113,9.0141 C-0.1707,9.6961 -0.1707,10.8061 0.5113,11.4881 C0.8523,11.8291 1.3013,12.0001 1.7493,12.0001 C2.1973,12.0001 2.6453,11.8291 2.9863,11.4881 L7.0313,7.4441 C8.4203,7.9861 9.9863,7.7651 11.0263,6.7251 C12.0473,5.7031 12.2673,4.0291 11.6763,2.5811" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Tool">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="icon-wrench" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
