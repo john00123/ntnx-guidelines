@@ -1,5 +1,5 @@
 
-const icons = ['core_icons']
+const icons = ['core_icons', 'navigation_icons','data_manipulation_icons']
 const content = $('.content')
 const pageName = ['icons']
 const pageVar = [icons]
@@ -12,7 +12,7 @@ function generate(page) {
 
   page.map(element => {
     let folder = `../img/${element}`
-    let title = element.replace('_', ' ')
+    let title = element.replace(/_/g, ' ')
 
     content.append(
       `<h3 class='title ${element}-title'> ${title}</h3>

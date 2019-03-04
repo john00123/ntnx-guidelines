@@ -56,7 +56,7 @@ blockquote{
 }
 
 .icon-grid{
-  @include grid(200px, 1fr, 30px);
+  @include grid(250px, 1fr, 30px);
   .image{
     height: 200px;
   }
@@ -166,9 +166,13 @@ a:hover{
   left: 0;
   width: 100%;
   text-transform: capitalize;
+
   @include transition(all);
 
-
+  span{
+    font-size: 12px!important;
+    font-weight: 500;
+  }
   @media only screen and (max-width: 600px){
     opacity: 1;
   }
