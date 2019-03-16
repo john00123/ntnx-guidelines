@@ -17,7 +17,7 @@ function generate(page) {
     let title = element.replace('_', ' ')
 
     content.append(
-      `<h3 class='title ${element}-title'> ${title}</h3>
+      `<h3 class='section-title ${element}-title'> ${title}</h3>
        <div class='${element} grid'></div>`
      ) // pre create grid
 
@@ -28,22 +28,30 @@ function generate(page) {
         //image path
         let assetName  = val.replace(`/img/${element}/`, '')
         let assetPath  = `/img/${element}/${assetName}`
+        let pngPath  = `/img/${element}/${assetName.replace('.svg','.png')}`
         let darkModeOn = $('.subheader').hasClass('dark-subheader')
         let cleanPath  = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
 
 
         //append image container to the section
+
         $(`.${element}`).append( `
-          <a href="${assetPath}" class='${assetName.replace('.svg','')}' download>
-          <div class='image ${darkModeOn ? 'dark-image ':''} ${element}-child' style='background-image:url(${assetPath})'>
-            <button hcd> <span>${cleanPath}</span>
-              <span class='download' style='opacity','0'>↓</span>
-            </button>
-          </div>
-          </a>`)
-        }
-        })
-      }}) //end of ajax call
+          <div class='card ${assetName.replace('.svg','')}'>
+            <div class='card-header' hcd>
+              <p hcd> ${cleanPath}</p>
+              <div>
+                <a href="${assetPath}"><button> SVG </button></a>
+                <a href="${pngPath  }"><button> PNG </button></a>
+              </div>
+            </div>
+            <div class='image ${darkModeOn ? 'dark-image ':''} ${element}-child'
+                 style='background-image:url(${assetPath})'>
+            </div>
+          </div>`
+        )
+      }
+      })
+    }}) //end of ajax call
   }) // end of mapping
 } // end of page generation
 
@@ -62,7 +70,7 @@ function loadIn(page) {
 
 $('body').append(`
   <div class='page-selection'>
-    <div class='page-nav' vss> <ul></ul> </div>
+    <div class='page-nav' fw vss> <ul></ul> </div>
   </div>`)
 
 

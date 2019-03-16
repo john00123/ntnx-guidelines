@@ -4,292 +4,71 @@
 @import 'base';
 @import 'header';
 @import 'subheader';
-
+@import 'hamburger';
+@import 'darkMode';
 
 html{
   @include font;
-  background-color: white;
-  overflow-y:scroll;
   @include transition(background-color);
-  transition-duration: 200ms;
+  overflow-y         : scroll;
+  background-color   : white;
+  transition-duration: 200ms; //for darkMode
 }
 
-blockquote{
-  width: 100ch;
-  line-height: 1.75;
-  margin: 0;
-}
-
-
-
-.comment{
-  background-color: $semi-white-blue;
-  @include size( auto, 100%);
-  padding: 20px;
-  margin-bottom: 20px;
-  margin-top: -30px;
-  color:$dark-blue-2;
-  border-radius: 4px;
-  text-transform: none;
+//general layout
+.content, .compress{
+  @include size(100%, 100%);
+  margin     : auto  ;
+  max-width  : 1440px;
 }
 
 .content{
   @include flex(flex-start, flex-start, column);
-  @include size(100%, 100%);
-  padding: 20px 20px;
-  max-width: 1440px;
-  margin: auto;
-  margin-top: 120px;
-}
-
-.compress{
-  width: 100%;
-  max-width: 1400px;
-  margin: auto;
+  padding    : 20px  ;
+  margin-top : 120px ;
 }
 
 .grid{
-  @include flex(flex-start, flex-start, column);
   @include size(auto, 100%);
   @include grid(300px, 1fr, 30px);
   padding-bottom: 80px;
-}
-
-.icon-grid{
-  @include grid(250px, 1fr, 30px);
-  .image{
-    height: 200px;
-  }
-
-  @media only screen and (max-width: 600px){
-    @include grid(200px, 1fr, 30px);
-  }
-}
-
-.title{
-  text-transform: capitalize;
-  margin-bottom: 30px;
-  color: $font-color-2;
-  a{
-    font-weight: 500;
-    &:hover{text-decoration: underline;}
-  }
-}
-
-.page-nav{
   text-transform: capitalize;
 }
+
+//section grid
 .section-title{
-  @include size(100%, 600px);
-}
-
-.section-content{
-  border-left: 1px solid $background-color-3;
-  padding-left: 40px;
-}
-
-.guide{
-  // max-width: 100ch;
-  p{
-    font-size: 16px;
-    line-height: 1.75;
-  }
-  h3{
-    font-size: 18px;
-  }
-}
-
-
-a:hover{
-  text-decoration: none;
-}
-
-
-
-.image{
-  @include size(300px, 200px);
-  @include flex(center, flex-end, column);
-  background-color: #F2F4F6;
-  width:100%;
-  background-size: auto;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  border-radius: 4px;
-  padding: 10px;
-  @include transition(all);
-  position: relative;
-  &:hover{
-    cursor: pointer;
-    .download{
-      @include transition(opacity)
-      opacity: 1;
-    }
-    // @include shadow();
-  }
-}
-
-.download{
-  opacity: 0;
-}
-
-.market{
-  .image{
-    background-size: 150px;
-  }
-}
-
-
-.review{
-  pointer-events: none;
-  opacity: 0.3;
-}
-
-.gif-child{
-  background-size: 30px;
-}
-
-
-.image button{
-  width: 100%;
-  border: none;
-  color: $font-color-1;
-  pointer-events: none;
-  background: darken($light-grey-3, 3);
-  margin-bottom: 10px;
-  padding: 15px;
-  border-radius: 4px 4px 0 0 ;
-  opacity: 1;
-  position:absolute;
-  top: -2px;
-  text-align: left;
-  left: 0;
-  width: 100%;
+  color: $font-color-2;
+  margin-bottom : 30px;
   text-transform: capitalize;
-
-  @include transition(all);
-
-  span{
-    font-size: 12px!important;
-    font-weight: 500;
-  }
-  @media only screen and (max-width: 600px){
-    opacity: 1;
-  }
 }
 
-
-kbd{
-  font-family: 'Menlo';
-  color: $dark-blue-1;
-  font-size: 13px;
-  background-color: $semi-white-blue;
-  padding: 5px 10px;
-  border-radius: 2px;
-}
-
-
-//dark mode
-
-.dark-html{
-  background-color: $dark-grey-1;
-  .page-selection{
-    background-color: #191B20;
-    li{color:white;}
-  }
-}
-
-
-.dark-subheader{
-  background-color: #191B20;
-  color:white;
-  border-bottom: none;
-  overflow: hidden;
-  #search{
-    &::placeholder{color:$background-color-2};
-    color:$white
-  }
-
-  .search-icon path{fill:$background-color-2!important;}
-  .page-subtitle{border-color: $grey-1;}
-
-  li.active{
-    color:white;
-  }
-
-  li:hover{
-    color:white;
-  }
-
-  .hamburger:before, .hamburger:after, .patty{background-color: white}
-
-  &:before{
-   content: ‘’;
-   width: 100%;
-   height: 60px;
-   background: inherit;
-   position: absolute;
-   top: 60px;   //giving minus -25px top position
-   bottom: 0;
-   box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
-   filter: blur(10px);}
-}
-
-.dark-image{
-  // background-color: $light-blue-2;
-}
-
-.svg_animations{
-  pointer-events: none;
-}
 
 .double, .full_page-child{
-  grid-column: span 3;
-  grid-row: span 2;
+  grid: span 3 / span 2;
   height: 640px;
 
-  @media only screen and (max-width: 600px){
-    grid-column: span 1;
-    grid-row: span 1;
+  @media(max-width: 600px) {
+    grid: span 1 / span 1;
     height: 200px;
   }
 }
 
-.togglelicious{
-  grid-template-rows: auto auto;
-}
+//card
 
-.page-selection, .page-nav, ul{width: 100%}
-
-.page-selection{
-  position: fixed;
-  top: 120px;
-  display: none;
-  box-sizing: border-box;
-  overflow: hidden;
-  height: auto;
-  background-color: $background-color-3;
-  left: 0;
-  @include shadow();
-
-  .page-nav{
-    margin: 0;
-    padding: 0;
-  }
-
-  ul{
-    padding-top: 10px;
-    margin: auto;
-    width: 100%;
-    li{
-      font: $h2;
-      color: $font-color-1;
-      margin-left: -40px;
-      padding-left: 20px;
-      line-height: 40px;
-    }
-    li:nth-child(even){
-      background-color: rgba(0,0,0,0.01);
-    }
+.card{
+  background   : $light-grey-3;
+  border-radius: 4px;
+  &-header{
+    padding    : 0 20px;
+    background : rgba(0,0,0,0.03);
   }
 }
+
+.image{
+  @include size(300px, 100%);
+  @include flex(center, flex-end, column);
+  background: transparent no-repeat center;
+}
+
+.market .image{ background-size: 150px }
+.gif-child    { background-size: 30px  }

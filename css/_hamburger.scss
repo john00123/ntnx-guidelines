@@ -1,0 +1,52 @@
+//main:style.scss
+
+.subheader li{
+  @media only screen and (max-width: 600px){
+    display: none;
+    color: $font-color-1;
+  }
+}
+
+.hamburger{
+  @include size(12px ,16px);
+  @include flex(center, space-between, row);
+  @media(max-width: 600px){ display: flex}
+
+  display: none;
+  position: relative;
+
+  &:before, &:after, .patty{
+    content: '';
+    border-radius: 1px;
+    @include size(2px, 100%);
+    background: $font-color-1;
+    position: absolute;
+  }
+
+  &:before{top:0px}
+  &:after{bottom:0px}
+}
+
+// when media is @600px
+
+.page-selection{
+  @include size(auto, 100vw);
+  @include shadow();
+  @media(min-width: 600px){ opacity: 0}
+  left: 0;
+  top: 120px;
+  opacity: 1;
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  background: $background-color-3;
+
+  .page-nav, ul{ margin: 0; padding: 0; }
+
+  li{
+    font: $h2;
+    width: 100vw;
+    line-height: 40px;
+  }
+
+}
