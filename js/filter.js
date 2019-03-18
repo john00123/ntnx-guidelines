@@ -5,18 +5,21 @@ function filter(){
   let searchValue =  $('#search').val().toLowerCase();
 
   if (searchValue === '' ) {
-    $(`.grid, .card`).show();
+    $('section, .grid, .card').show();
     $('container').find('h3').show();
+    $('.grid').css('padding-bottom','80px')
   }
-  else{
+  else {
     $(`.grid`).find(`.card:contains('${searchValue}')`) .show();
     $(`.grid`).find(`.card:not(:contains('${searchValue}'))`).hide();
+    $('.grid').css('padding-bottom','20px');
+
+    $("section").each(function() {
+      $(this).show();
+      if(!($(this).find(".card").is(':visible'))){
+        console.log($(this))
+         $(this).hide()
+       }
+    })
   }
-
-  searchValue === '' ? $('.grid').css('padding-bottom','80px') : $('.grid').css('padding-bottom','20px');
-
-
-  $(".grid").each(function() {
-    if($(this).find(".card:visible").length == 0 ){ $(this).parent().hide()}
-  })
 }
