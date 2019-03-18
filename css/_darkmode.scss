@@ -1,18 +1,14 @@
 //main:style.scss
 
-.dark-html{
-  background-color: $dark-grey-1;
-  .page-selection{
-    background-color: #191B20;
-    li{color:white;}
-  }
-}
+$dark-black : #191B20;
 
+.dark-html      { background: $dark-grey-1 }
+
+.page-selection,    .dark-subheader { background: $dark-black }
+.page-selection li, .dark-subheader { color:white }
 
 .dark-subheader{
-  background-color: #191B20;
-  color:white;
-  border-bottom: none;
+  border-color: transparent;
   overflow: hidden;
   #search{
     &::placeholder{color:$background-color-2};
@@ -39,6 +35,6 @@
    filter: blur(10px);}
 }
 
-.dark-image{
-  // background-color: $light-blue-2;
+.dark-card{
+  background-color: $light-blue-2;
 }

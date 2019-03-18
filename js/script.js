@@ -36,15 +36,15 @@ function generate(page) {
         //append image container to the section
 
         $(`.${element}`).append( `
-          <div class='card ${assetName.replace('.svg','')}'>
+          <div class='card ${assetName.replace('.svg','')} ${darkModeOn ? 'dark-card ':''}'>
             <div class='card-header' hcd>
               <p hcd> ${cleanPath}</p>
               <div>
-                <a href="${assetPath}"><button> SVG </button></a>
-                <a href="${pngPath  }"><button> PNG </button></a>
+                <a  href="${pngPath  }"><button> PNG </button></a>
+                <a  href="${assetPath}"><button> SVG </button></a>
               </div>
             </div>
-            <div class='image ${darkModeOn ? 'dark-image ':''} ${element}-child'
+            <div class='image ${element}-child'
                  style='background-image:url(${assetPath})'>
             </div>
           </div>`
@@ -109,7 +109,7 @@ navigate(3)
 
 function darkMode (){
   $('html').toggleClass('dark-html');
-  $('.image').toggleClass('dark-image');
+  $('.card').toggleClass('dark-card');
   $('.subheader').toggleClass('dark-subheader');
 }
 $('.main-back').click(darkMode)

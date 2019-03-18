@@ -4,11 +4,24 @@
 function filter(){
   let searchValue =  $('#search').val().toLowerCase();
 
-  $('a').find(`:not(:contains('${searchValue}'))`).hide();
-  $('a').find(`:not(:contains('${searchValue}'))`).parentsUntil($('container')).hide()
-  $('a').find(`:contains('${searchValue}')`).show()
-  $('a').find(`:contains('${searchValue}')`).parentsUntil($('container')).show()
-  searchValue === '' ? $('container').find('h3').show():$('container').find('h3').hide()
+  if (searchValue === '' ) {
+    $(`.grid, .card`).show();
+    $('container').find('h3').show();
+  }
+  else{
+  $('container').find('h3').hide()
+  $(`.grid`).find(`.card:contains('${searchValue}')`) .show();
+  $(`.grid`).find(`.card:not(:contains('${searchValue}'))`).hide();
 
-  searchValue === '' ? $('.grid').css('padding-bottom','80px') : $('.grid').css('padding-bottom','30px')
+  $(".grid").each(function() {
+    if ($(this).find(".card:visible").length == 0) {
+      $(this).hide();
+      } else {
+        $(this).show();
+    }
+    });
+  }
+
+  searchValue === '' ? $('.grid').css('padding-bottom','80px') : $('.grid').css('padding-bottom','20px')
+
 }
