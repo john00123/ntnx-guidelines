@@ -16,9 +16,12 @@ function generate(page) {
     let folder = `../img/${element}`
     let title = element.replace('_', ' ')
 
-    content.append(
-      `<h3 class='section-title ${element}-title'> ${title}</h3>
-       <div class='${element} grid'></div>`
+    content.append(`
+      <section class='${element}-section' fw>
+        <h3 class='section-title ${element}-title'> ${title}</h3>
+        <div class='${element} grid'></div>
+      </section>
+        `
      ) // pre create grid
 
     $.ajax( { url: folder, success: function(data) {
