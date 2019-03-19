@@ -14,12 +14,10 @@ function filter(){
     $(`.grid`).find(`.card:not(:contains('${searchValue}'))`).hide();
     $('.grid').css('padding-bottom','20px');
 
+    // removes section when empty
     $("section").each(function() {
-      $(this).show();
-      if(!($(this).find(".card").is(':visible'))){
-        console.log($(this))
-         $(this).hide()
-       }
+      $(this).show()
+      if(!($(this).find(".card").is(':visible'))){ $(this).hide()}
     })
   }
 }
