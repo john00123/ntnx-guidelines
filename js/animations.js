@@ -1,7 +1,7 @@
 
 function player(){
 
-  const animate = ['coinsA','coinsB','coinsC','coinsD','coinsE','foundation','prism','prism2']
+  const animate = ['coinsA','coinsB','coinsC','coinsD','coinsE','foundation','prism','prism2','iot']
 
   animate.map( value => {
     $('.svg_animations').append(`<div class='image' id=${value}></div>`)
