@@ -3,8 +3,8 @@ const marketing = ['market']
 const product = ['empty_state','xi_iot','error','trigger','full_page']
 const video = ['svg_animations']
 const content = $('.content')
-const pageName = ['blocks', 'product', 'marketing', 'video']
-const pageVar = [blocks, product, marketing, video]
+const pageName = ['product', 'marketing', 'video','blocks',]
+const pageVar = [ product, marketing, video,blocks,]
 const subtitle = $('.level1')
 
 
