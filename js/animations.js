@@ -1,10 +1,10 @@
 
 function player(){
 
-  const animate = ['coinsA','coinsB','coinsC','coinsD','coinsE','foundation','prism','prism2','iot']
+  const animate = ['coinsA','coinsB','coinsC','coinsD','coinsE','foundation','prism','prism2']
 
   animate.map( value => {
-    $('.svg_animations').append(`<div class='image' id=${value}></div>`)
+    $('.svg_animations').append(`<div class='card'><div class='image' id=${value}></div></div>`)
     let animation = bodymovin.loadAnimation({
       container: document.getElementById(value),
       renderer: 'svg',

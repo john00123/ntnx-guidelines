@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.5732,11.9263 L6.0002,8.3533 L2.4272,11.9263 C2.2692,12.0843 2.0002,11.9723 2.0002,11.7493 L2.0002,0.9313 C2.0002,0.4323 2.4042,0.0283 2.9022,0.0283 L9.0972,0.0283 C9.5952,0.0283 10.0002,0.4323 10.0002,0.9313 L10.0002,11.7493 C10.0002,11.9723 9.7312,12.0843 9.5732,11.9263" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Label" transform="translate(-2.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="bookmark" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

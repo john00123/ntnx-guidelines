@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>pie_chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.9775785,7 C10.7249641,9.80325001 8.36902128,12 5.5,12 C2.46243388,12 3.71994563e-16,9.53756612 0,6.5 C-3.51353772e-16,3.63097872 2.19674999,1.2750359 5,1.02242151 L5,6.5 C5,6.77614237 5.22385763,7 5.5,7 L10.9775785,7 Z M6.75,1.28653129e-14 L7,-1.75462e-11 C9.76142375,-2.2277844e-11 12,2.23857625 12,5 L12,5.25 C12,5.52614237 11.7761424,5.75 11.5,5.75 L6.75,5.75 C6.47385763,5.75 6.25,5.52614237 6.25,5.25 L6.25,0.5 C6.25,0.223857625 6.47385763,1.29160394e-14 6.75,1.28653129e-14 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Analyze">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="pie_chart" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

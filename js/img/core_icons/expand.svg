@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>expand</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,1 C10.5522847,1 11,1.44771525 11,2 L11,5 C11,5.55228475 10.5522847,6 10,6 C9.44771525,6 9,5.55228475 9,5 L9,3 L7,3 C6.44771525,3 6,2.55228475 6,2 C6,1.44771525 6.44771525,1 7,1 L10,1 Z M3,9 L5,9 C5.55228475,9 6,9.44771525 6,10 C6,10.5522847 5.55228475,11 5,11 L2,11 C1.44771525,11 1,10.5522847 1,10 L1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 L3,9 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Zoom-In" transform="translate(-1.000000, -1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="expand" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

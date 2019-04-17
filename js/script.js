@@ -1,6 +1,6 @@
 const blocks = ['infrastructure','interface','miscelaneous','tools','sports','signs','geometry','transportation','buildings']
 const marketing = ['market']
-const product = ['empty_state','xi_iot','error','trigger','full_page']
+const product = ['empty_state','error','trigger','full_page']
 const video = ['svg_animations']
 const content = $('.content')
 const pageName = ['product', 'marketing', 'video','blocks',]
@@ -19,14 +19,14 @@ function generate(page) {
     content.append(`
       <section class='${element}-section' fw>
         <h3 class='section-title ${element}-title'> ${title}</h3>
-        <div class='${element} grid'></div>
+        <div class='grid ${element}'></div>
       </section>
         `
      ) // pre create grid
 
     $.ajax( { url: folder, success: function(data) {
       $(data).find("a").attr("href", function(i, val) {
-      if (val.match(/\.(jpe?g|png|svg|gif)$/)) {
+      if (val.match(/\.(jpe?g|svg|gif)$/)) {
 
         //image path
         let assetName  = val.replace(`/img/${element}/`, '')

@@ -1,0 +1,99 @@
+//main:style.scss
+
+.subheader{
+  @include size(60px, 100%);
+  @include flex(center, space-between, row);
+  background: $white;
+  padding   : 0 20px;
+}
+
+.subheader{
+  top : 60px;
+  left: 0;
+  position: fixed;
+  transform: translate3d(0px, -120px, 0px);
+
+  z-index: 5;
+  transition:
+  transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1),
+  background-color 200ms cubic-bezier(0.165, 0.84, 0.44, 1);
+
+  will-change: transform, background-color;
+  border-bottom: 1px solid $background-color-3;
+}
+
+.page-subtitle{
+  border-right: 1px solid $border-color-2;
+  height: 16px;
+  padding-right: 20px;
+  margin-right: 20px;
+  line-height: 18px;
+  display: inline;
+}
+
+.main-back{
+  margin-right: -5px;
+}
+
+.slideDown{
+  opacity  : 1;
+  transform: translate3d(0px,0px,0px);
+}
+
+.back-section{
+  @include transition(color);
+  transition-duration: 200ms;
+
+  svg{
+    @include transition(transform);
+    transition-duration: 400ms;
+    will-change: transform;
+  }
+
+  &:hover{
+    color : $blue-1;
+    cursor: pointer;
+    svg { transform:translate3d(2px, 0px, 0px) }
+  }
+}
+
+
+li, .level1, #search{
+  text-transform: capitalize;
+  @media(max-width: 600px){ font-size: 16px}
+}
+
+
+li{
+  color:$font-color-2;
+  list-style: none;
+  font-weight: 500;
+  margin-left: 30px;
+  position: relative;
+}
+
+
+.active{
+  color: $font-color-1;
+  &::after{
+    content: '';
+    @include size(2px,100%);
+    background-color: $blue-1;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+  }
+}
+
+li:hover, .hamburger:hover{
+  color: $font-color-1;
+  cursor: pointer;
+}
+
+#search{
+  border-color: transparent;
+  background: transparent;
+  position: relative;
+}
+
+.search-icon{ margin-left: 20px;}

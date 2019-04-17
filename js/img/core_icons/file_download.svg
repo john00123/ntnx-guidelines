@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.646,8.85325 L2.504,5.71125 C2.114,5.32025 2.114,4.68725 2.504,4.29725 C2.895,3.90625 3.528,3.90625 3.918,4.29725 L5,5.37825 L5,0.99925 C5,0.44725 5.447,-0.00075 6,-0.00075 C6.552,-0.00075 7,0.44725 7,0.99925 L7,5.37825 L8.082,4.29625 C8.473,3.90525 9.105,3.90525 9.496,4.29625 C9.691,4.49125 9.789,4.74725 9.789,5.00325 C9.789,5.25925 9.691,5.51525 9.496,5.71025 L6.354,8.85325 C6.158,9.04825 5.841,9.04825 5.646,8.85325 Z M11,8 C11.552,8 12,8.448 12,9 L12,11 C12,11.552 11.552,12 11,12 L1,12 C0.447,12 0,11.552 0,11 L0,10.999 L0,9 C0,8.448 0.448,8 1,8 C1.552,8 2,8.448 2,9 L2,10 L10,10 L10,9 C10,8.448 10.448,8 11,8 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Download">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="download" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

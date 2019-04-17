@@ -1,0 +1,40 @@
+//main:style.scss
+
+$dark-black : #191B20;
+
+.dark-html      { background: $dark-grey-1 }
+
+.page-selection,    .dark-subheader { background: $dark-black }
+.page-selection li, .dark-subheader { color:white }
+
+.dark-subheader{
+  border-color: transparent;
+  overflow: hidden;
+  #search{
+    &::placeholder{color:$background-color-2};
+    color:$white
+  }
+
+  .search-icon path{fill:$background-color-2!important;}
+  .page-subtitle{border-color: $grey-1;}
+
+  li.active, li:hover{ color:white }
+
+
+  .hamburger:before, .hamburger:after, .patty{background-color: white}
+
+  &:before{
+   content: ‘’;
+   width: 100%;
+   height: 60px;
+   background: inherit;
+   position: absolute;
+   top: 60px;   //giving minus -25px top position
+   bottom: 0;
+   box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+   filter: blur(10px);}
+}
+
+.dark-card{
+  background-color: $light-blue-2;
+}

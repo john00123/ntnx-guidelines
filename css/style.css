@@ -596,6 +596,21 @@ html body {
   background-size: 150px;
 }
 
+.empty_state-child {
+  height: 120px;
+  width: 120px;
+  box-sizing: border-box;
+  margin: 60px auto;
+}
+
+.full_page {
+  grid-template-columns: initial;
+}
+
+.full_page .image {
+  height: 600px;
+}
+
 .dark-html {
   background: #22272E;
 }

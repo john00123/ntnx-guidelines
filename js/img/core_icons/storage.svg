@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="9px" viewBox="0 0 10 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>storage</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.5,7 L10.5,7 C10.776,7 11,7.224 11,7.5 L11,10.5 C11,10.776 10.776,11 10.5,11 L1.5,11 C1.224,11 1,10.776 1,10.5 L1,7.5 C1,7.224 1.224,7 1.5,7 Z M2.2,9 C2.08954305,9 2,9.08954305 2,9.2 L2,9.8 C2,9.91045695 2.08954305,10 2.2,10 L2.8,10 C2.91045695,10 3,9.91045695 3,9.8 L3,9.2 C3,9.08954305 2.91045695,9 2.8,9 L2.2,9 Z M1.5,2 L10.5,2 C10.776,2 11,2.224 11,2.5 L11,5.5 C11,5.776 10.776,6 10.5,6 L1.5,6 C1.224,6 1,5.776 1,5.5 L1,2.5 C1,2.224 1.224,2 1.5,2 Z M2.2,4 C2.08954305,4 2,4.08954305 2,4.2 L2,4.8 C2,4.91045695 2.08954305,5 2.2,5 L2.8,5 C2.91045695,5 3,4.91045695 3,4.8 L3,4.2 C3,4.08954305 2.91045695,4 2.8,4 L2.2,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Storage" transform="translate(-1.000000, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="storage" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

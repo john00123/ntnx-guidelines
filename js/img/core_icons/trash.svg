@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>trash</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,1 L4,0.5 C4,0.223857625 4.22385763,5.07265313e-17 4.5,0 L7.5,0 C7.77614237,-5.07265313e-17 8,0.223857625 8,0.5 L8,1 L10,1 C10.5522847,1 11,1.44771525 11,2 L11,2.5 C11,2.77614237 10.7761424,3 10.5,3 L1.5,3 C1.22385763,3 1,2.77614237 1,2.5 L1,2 C1,1.44771525 1.44771525,1 2,1 L4,1 Z M1.5,4 L10.5,4 L10.0586014,11.0623783 C10.0256617,11.5894132 9.58861206,12 9.06054878,12 L2.93945122,12 C2.41138794,12 1.97433833,11.5894132 1.94139864,11.0623783 L1.5,4 Z M4.5,6 C4.22385763,6 4,6.22385763 4,6.5 L4,9.5 C4,9.77614237 4.22385763,10 4.5,10 C4.77614237,10 5,9.77614237 5,9.5 L5,6.5 C5,6.22385763 4.77614237,6 4.5,6 Z M7.5,6 C7.22385763,6 7,6.22385763 7,6.5 L7,9.5 C7,9.77614237 7.22385763,10 7.5,10 C7.77614237,10 8,9.77614237 8,9.5 L8,6.5 C8,6.22385763 7.77614237,6 7.5,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Remove" transform="translate(-1.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="trash" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

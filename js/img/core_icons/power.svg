@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>power</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.0947,1.9053 C9.4537,1.5463 10.0457,1.5473 10.3917,1.9193 C11.3887,2.9883 11.9997,4.4223 11.9997,6.0003 C11.9997,9.5493 8.9187,12.3783 5.2847,11.9583 C2.6407,11.6533 0.4527,9.5393 0.0667,6.9053 C-0.2143,4.9883 0.4147,3.2163 1.5827,1.9463 C1.9407,1.5573 2.5597,1.5593 2.9337,1.9333 L3.0137,2.0143 C3.3817,2.3823 3.3597,2.9573 3.0127,3.3453 C2.3837,4.0513 1.9997,4.9803 1.9997,6.0003 C1.9997,8.3723 4.0657,10.2633 6.4977,9.9693 C8.2117,9.7633 9.6467,8.4093 9.9387,6.7083 C10.1637,5.4013 9.7517,4.1883 8.9637,3.3203 C8.6277,2.9493 8.6047,2.3953 8.9587,2.0413 L9.0947,1.9053 Z M6,7 C5.448,7 5,6.552 5,6 L5,1 C5,0.448 5.448,-2e-16 6,-2e-16 C6.552,-2e-16 7,0.448 7,1 L7,6 C7,6.552 6.552,7 6,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Power">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="power" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

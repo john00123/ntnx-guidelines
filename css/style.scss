@@ -93,8 +93,16 @@ html{
 
 //marketing variation
 .market .image{ background-size: 150px }
-
-
+.empty_state-child{
+  @include size(120px, 120px)
+  margin: 60px auto;
+}
+.full_page{
+  grid-template-columns: initial;
+  .image{
+    height: 600px;
+  }
+}
 
 
 // post

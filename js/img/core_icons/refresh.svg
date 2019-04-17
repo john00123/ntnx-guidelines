@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,6 C9.448,6 9,6.448 9,7 C9,8.657 7.657,10 6,10 C4.343,10 3,8.657 3,7 C3,5.343 4.343,4 6,4 L6,5 C6,5.412 6.47,5.647 6.8,5.4 L9.467,3.4 C9.733,3.2 9.733,2.8 9.467,2.6 L6.8,0.6 C6.47,0.353 6,0.588 6,1 L6,2 C3.238,2 1,4.239 1,7 C1,9.761 3.239,12 6,12 C8.761,12 11,9.761 11,7 C11,6.448 10.552,6 10,6" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Restart" transform="translate(-1.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="refresh" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

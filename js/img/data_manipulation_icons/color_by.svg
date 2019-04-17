@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>color_bucket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.7764,8 L2.5384,8 L2.1364,7.598 C1.7194,7.182 1.7194,6.504 2.1364,6.087 L5.3454,2.878 L9.1224,6.654 L7.7764,8 Z M11.7654,7.032 L4.9684,0.234 C4.6544,-0.079 4.1474,-0.078 3.8354,0.234 C3.5234,0.546 3.5234,1.055 3.8354,1.367 L4.2134,1.745 L0.6254,5.332 C-0.2086,6.167 -0.2086,7.519 0.6254,8.353 L3.6464,11.374 C4.4814,12.208 5.8334,12.208 6.6684,11.374 L10.2554,7.787 L10.6324,8.165 C10.7894,8.32 10.9944,8.398 11.1994,8.398 C11.4044,8.398 11.6094,8.32 11.7654,8.165 C12.0784,7.852 12.0784,7.344 11.7654,7.032 L11.7654,7.032 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Standard-/-Icon-Color-By">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="color_bucket" fill="#1B2025" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
