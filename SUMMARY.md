@@ -5,6 +5,7 @@
 ## Principles
 
 * [Accesibility](principles/accesibility.md)
+* [Colors](principles/colors.md)
 
 ## File Manipulation
 
@@ -13,5 +14,5 @@
 
 ## OTHER RESOURCES
 
-* [🔒 Library \(VPN Required\)](http://library.ntnx.design)
+* [🔒 Illustrations \(VPN Required\)](http://library.ntnx.design)
 
