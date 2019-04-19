@@ -5,7 +5,8 @@
 ## Principles
 
 * [Accesibility](principles/accesibility.md)
-* [Colors](principles/colors.md)
+* [Colors](principles/colors/README.md)
+  * [Color usage](principles/colors/color-usage.md)
 * [Grid](principles/grid.md)
 * [Typography](principles/typography.md)
 * [Iconography](principles/iconography.md)

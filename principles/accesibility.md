@@ -14,9 +14,11 @@ Make sure that the information flows in order of their level of importance so th
 
 Some users find it hard to read light gray text on a white background, dark gray text on a black background and white text on a red background.
 
-* The contrast should be **3.0** or more for 18 px text, or larger
-* The contrast should be **3.0** or more for 14 px bold text, or larger
-* The contrast should be **4.5** or more for all other text
+`The contrast should be 3.0 or more for 18 px text, or larger`
+
+`The contrast should be 3.0 or more for 14 px bold text, or larger`
+
+`The contrast should be 4.5 or more for all other text`
 
 ### Proper tags and elements
 
@@ -34,11 +36,13 @@ A keyboard user typically uses the Tab key to navigate through interactive eleme
 
 | Keyboard Key | Description |
 | :--- | :--- |
-| `Esc` | Close a dialog |
+| `Esc` | Close a modal  \*\* |
 | `Alt+/` | Open Hamburger menu |
 | `Enter` | Activates primary button |
 | `Space` | Actives focused element |
 | `Tab` | Traverses through the DOM |
+
+\*\* make sure to brung a confirmation popup before closing.
 
 ### Test on a developer instance
 
