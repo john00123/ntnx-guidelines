@@ -6,13 +6,21 @@
 
 * [Accesibility](principles/accesibility.md)
 * [Colors](principles/colors.md)
+* [Grid](principles/grid.md)
+* [Typography](principles/typography.md)
+
+## Navigation
+
+* [Steps](navigation/steps.md)
+* [Header](navigation/header.md)
+* [Tabs](navigation/tabs.md)
 
 ## File Manipulation
 
-* [File Upload](file-manipulation/file-upload.md)
-* [Script Upload](file-manipulation/script-upload.md)
+* [Upload](file-manipulation/file-upload.md)
 
 ## OTHER RESOURCES
 
-* [🔒 Illustrations \(VPN Required\)](http://library.ntnx.design)
+* [🔒 Illustrations \(VPN\)](http://library.ntnx.design)
+* [🔒 Dev styleguide  \(VPN\)](http://prism-styleguide)
 

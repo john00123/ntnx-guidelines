@@ -4,8 +4,10 @@ description: This is the set of color variables used in our product portfolio.
 
 # Colors
 
+
+
 {% hint style="info" %}
-[Sketch Color Document](https://share.goabstract.com/356c86b5-84b3-48b7-8291-b898d23252f2) \(Requires Abstract access\)
+ View in[ Abstract](https://share.goabstract.com/356c86b5-84b3-48b7-8291-b898d23252f2)
 {% endhint %}
 
 | Name | Hex | RGB | CMUK |
