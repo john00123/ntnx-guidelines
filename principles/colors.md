@@ -12,8 +12,6 @@ description: This is the set of color variables used in our product portfolio.
 
 Our primary palette includes neutral, white, and blue. These colors are present across most places in our product.
 
-
-
 ### Neutral Palette
 
 General color scheme to define main layout areas, like navigation, borders, backgrounds, and  typographic elements.
@@ -31,10 +29,10 @@ General color scheme to define main layout areas, like navigation, borders, back
 | ![](../.gitbook/assets/light-grey-1.svg) Light-grey-1 | `#B8BFCA` | 184, 191, 202 |
 | ![](../.gitbook/assets/light-grey-2.svg) Light-grey-2 | `#D5DAE0` | 213, 218, 224 |
 | ![](../.gitbook/assets/light-grey-3.svg) Light-grey-3 | `#F2F4F6` | 242, 244, 246 |
-| ![](../.gitbook/assets/semi-white.svg) Semi-white     | `#F8F9FA` | 248, 249, 250 |
+| ![](../.gitbook/assets/semi-white.svg) Semi-white                | `#F8F9FA` | 248, 249, 250 |
 | ![](../.gitbook/assets/white.svg) White | `#FFFFFF` | 255 ,255, 255 |
 
-### 
+
 
 ### Blue Palette
 
@@ -45,7 +43,7 @@ Blue is used in two different scenarios, to inform or highlight an element witho
 | ![](../.gitbook/assets/dark-blue-1.svg) Dark-blue-1 | `#1856AD` | 24, 86, 173 |
 | ![](../.gitbook/assets/dark-blue-2.svg) Dark-blue-2 | `#1B6DC6` | 27, 109, 198 |
 | ![](../.gitbook/assets/dark-blue-3.svg) Dark-blue-3 | `#1F88DE` | 31, 136, 222 |
-| ![](../.gitbook/assets/blue-1.svg) Blue-1 | `#22A5F7` | 34, 165, 247 |
+| ![](../.gitbook/assets/blue-1.svg) Blue-1 `CoreColor` | `#22A5F7` | 34, 165, 247 |
 | ![](../.gitbook/assets/blue-2.svg) Blue-2 | `#59BCF9` | 89, 188, 249 |
 | ![](../.gitbook/assets/blue-3.svg) Blue-3 | `#91D2FB` | 145, 210, 251 |
 | ![](../.gitbook/assets/light-blue-1.svg) Light-blue-1 | `#BDE4FD` | 189, 228, 253 |
@@ -55,95 +53,60 @@ Blue is used in two different scenarios, to inform or highlight an element witho
 
 ## Secondary Colors
 
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states. 
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
-## Color Variables
+### Green Palette
 
-{% tabs %}
-{% tab title="Neutrals" %}
-{% code-tabs %}
-{% code-tabs-item title="Color-variables.scss" %}
-```css
-$black:             #000000;
-$semi-black:        #1B2025;
-$dark-grey-1:       #22272E;
-$dark-grey-2:       #37414B;
-$dark-grey-3:       #4D5969;
-$grey-1:            #627386;
-$grey-2:            #7C8D9F;
-$grey-3:            #9AA5B5;
-$light-grey-1:      #B8BFCA;
-$light-grey-2:      #D5DAE0;
-$light-grey-3:      #F2F4F6;
-$semi-white:        #F8F9FA;
-$white:             #FFFFFF;
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-{% endtab %}
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
-{% tab title="Blue" %}
-**Blue**
+| Name | Hex | RGB |
+| :--- | :--- | ---: |
+| ![](../.gitbook/assets/dark-green-2.svg) Dark-green-1 | `#26925E` | 38, 146, 94 |
+| ![](../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#2BA664` | 43, 166, 100 |
+| ![](../.gitbook/assets/dark-green-3.svg) Dark-green-3 | `#31BB67` | 49, 187, 103 |
+| ![](../.gitbook/assets/green-1.svg) Green-1  `CoreColor` | `#36D068` | 54, 208, 104 |
+| ![](../.gitbook/assets/green-2.svg) Green-2 | `#68DC8E` | 104, 220, 142 |
+| ![](../.gitbook/assets/green-3.svg) Green-3 | `#9BE8B4` | 155, 232, 180 |
+| ![](../.gitbook/assets/light-green-1.svg) Light-green-1 | `#C3F1D2` | 195, 241, 210 |
+| ![](../.gitbook/assets/light-green-2.svg) Light-green-2 | `#D7F6E1` | 215, 246, 225 |
+| ![](../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
+| ![](../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
 
-Blue is used in two different scenarios, to inform or neutral state. The second usecase is to be used as a visual signifier of interactivity in our products.
+## Diagram Colors
 
-{% code-tabs %}
-{% code-tabs-item title="Color-variables.scss" %}
-```css
-$blue-1:              #22A5F7;
-$dark-blue-1:         adjust-hue(mix($blue-1, #000, 70%),12);
-$dark-blue-2:         adjust-hue(mix($blue-1, #000, 80%),8);
-$dark-blue-3:         adjust-hue(mix($blue-1, #000, 90%),4);
-$blue-2:              mix($blue-1, #fff, 75%);
-$blue-3:              mix($blue-1, #fff, 50%);
-$light-blue-1:        mix($blue-1, #fff, 30%);
-$light-blue-2:        mix($blue-1, #fff, 20%);
-$light-blue-3:        mix($blue-1, #fff, 10%);
-$semi-white-blue:     mix($blue-1, #fff, 5%);
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-{% endtab %}
+### Complimentary Palette
 
-{% tab title="Red" %}
-**Red**
 
-Red is exclusively used in critical notification or destructive actions.
 
-{% code-tabs %}
-{% code-tabs-item title="Color-variables.scss" %}
-```css
-$red-1:               #F55656;
-$dark-red-1:          adjust-hue(mix($red-1, #000, 70%),-12);
-$dark-red-2:          adjust-hue(mix($red-1, #000, 80%),-8);
-$dark-red-3:          adjust-hue(mix($red-1, #000, 90%),-4);
-$red-2:               mix($red-1, #fff, 75%);
-$red-3:               mix($red-1, #fff, 50%);
-$light-red-1:         mix($red-1, #fff, 30%);
-$light-red-2:         mix($red-1, #fff, 20%);
-$light-red-3:         mix($red-1, #fff, 10%);
-$semi-white-red:      mix($red-1, #fff, 5%);
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-{% endtab %}
+## Color Equations
 
-{% tab title="Green" %}
+To create our variables we used an equation using a CoreColor and hue rotation to achieve a consistent array across different bases.
 
-{% endtab %}
-
-{% tab title="Yellow" %}
-
-{% endtab %}
-{% endtabs %}
+#### Darken color equation
 
 ```css
-//Darken Equation
 adjust-hue(coreColor + black (intensity/100), n-4)
+```
 
-//Lighten Equation
+#### Lighten color equation
+
+```css
 mix(coreColor + white (intensity/100));
 ```
 
+## Color Usage
 
+{% tabs %}
+{% tab title="Font" %}
+
+{% endtab %}
+
+{% tab title="Border" %}
+
+{% endtab %}
+
+{% tab title="Background" %}
+
+{% endtab %}
+{% endtabs %}
 

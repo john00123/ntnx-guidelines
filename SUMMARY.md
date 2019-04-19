@@ -8,6 +8,8 @@
 * [Colors](principles/colors.md)
 * [Grid](principles/grid.md)
 * [Typography](principles/typography.md)
+* [Iconography](principles/iconography.md)
+* [Animations](principles/animations.md)
 
 ## Navigation
 
