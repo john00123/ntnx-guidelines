@@ -16,6 +16,54 @@ description: This is the set of color variables used in our product portfolio.
 
 
 
+1. **Stepper:** Step through a series of dialogs to communicate multiple benefits of a single focus element or subsequent benefits for a related task. Avoid using this to show the actual steps of a task. 
+2. **Secondary button:** Include a primary and secondary action. Best practice is to allow the user to skip or dismiss the spotlight. 
+3. **Spotlight area action:** Include a call to action for the user to interact with functionality within the spotlight area.
+4. **Illustration:** Include an illustration if it enhances the understanding for the user, and does not distract. Illustrations should be composed of metaphorical imagery that relates to the spotlight content or benefit. 
+5. **Title:** Include a title to inspire or draw the user in to a message that may positively impact them, but may be ignored. 
+
+### Best practices
+
+* Keep in mind the entire flow when using spotlights. Try not to overwhelm with too much information.
+* Always offer a dismiss option at each step. Don't force people to participate. Be kind. 
+* Ideally spotlights will only have a single step, but at a maximum, aim to only have 3-4 steps. The viewer only needs enough information to get them started. We know the new feature is exciting, but try to contain yourself. 
+
+#### Illustrations
+
+* Are used to make complex ideas more accessible.
+* Should be metaphorical and designed in conjunction with UI copy.
+* Use to efficiently convey brand personality.
+* Should not be used as decoration or without consideration.
+* Are a tool to guide in the user in the right direction.
+
+#### Writing tips
+
+**Titles**
+
+Do we really need a title? Is it just repeating a previous spotlight title or obvious functionality? Consider using: “**no title**”. Rule \#47, if you are struggling to name it, it probably doesn’t need a name.
+
+* If you must, however, use the title to communicate the main benefit to the user.
+  * **Manage your issues** instead of **Issue types**
+  * **Easily add fields** instead of **Fields**
+* Spotlight titles are a good place to add wink. 
+* Try to personalize where you can. E.g. “Your room”. 
+* Try to limit titles to 3 words, although 4 words are permissible if you are using a short article like “an”, “a”, or “the”.
+
+**Message copy**
+
+* Try to keep text length to 2 lines at the product's minimum supported size.
+* If no title is present stick to benefits here. Don't just point out what the feature or functionality is. Tell why is it important to the person seeing it? 
+* Be considerate of the viewers time and patience. Short bursts of information are better. 
+* If you talk about an element or a location within the body of the spotlight message, that element should be visible on the screen at the same time. Don't talk about things that the viewer can't see. 
+
+### Positioning
+
+The position of the dialog is flexible and will be repositioned depending on how close the element is to the edge of the screen. 
+
+### Pulse
+
+The spotlight area should have a subtle pulse animation to draw attention to the focused area
+
 {% tabs %}
 {% tab title="Neutrals" %}
 {% code-tabs %}
@@ -93,6 +141,8 @@ $semi-white-red:      mix($red-1, #fff, 5%);
 
 {% endtab %}
 {% endtabs %}
+
+![lklkl](../.gitbook/assets/pulse.gif)
 
 $$
 adjust-hue(coreColor + black (intensity/100), n-4)

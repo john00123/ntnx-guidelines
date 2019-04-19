@@ -34,3 +34,14 @@ A keyboard user typically uses the Tab key to navigate through interactive eleme
 
 
 
+## Navigation 
+
+| Keyboard Key | Description |
+| :--- | :--- |
+| `Esc` | Close a dialog |
+| `Alt+/` | Open the search panel |
+
+## 
+
+
+
