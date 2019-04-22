@@ -18,9 +18,11 @@
 * [Header](navigation/header.md)
 * [Tabs](navigation/tabs.md)
 
-## File Manipulation
+## ⚠️ Components in Review
 
-* [Upload](file-manipulation/file-upload.md)
+* [Upload](components-in-review/upload/README.md)
+  * [Script Upload](components-in-review/upload/script-upload.md)
+  * [File Upload](components-in-review/upload/file-upload.md)
 
 ## OTHER RESOURCES
 

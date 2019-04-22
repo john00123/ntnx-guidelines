@@ -1,7 +1,7 @@
 ---
 description: >-
   Our main goal is to create inclusive experiences across all of our product
-  offerings.
+  offerings. #WCAG
 ---
 
 # Accesibility
@@ -14,11 +14,17 @@ Make sure that the information flows in order of their level of importance so th
 
 Some users find it hard to read light gray text on a white background, dark gray text on a black background and white text on a red background.
 
-`The contrast should be 3.0 or more for 18 px text, or larger`
+{% hint style="info" %}
+The contrast should be 3.0 or more for 18 px text, or larger.
+{% endhint %}
 
-`The contrast should be 3.0 or more for 14 px bold text, or larger`
+{% hint style="info" %}
+The contrast should be 3.0 or more for 14 px bold text, or larger
+{% endhint %}
 
-`The contrast should be 4.5 or more for all other text`
+{% hint style="info" %}
+The contrast should be 4.5 or more for all other text
+{% endhint %}
 
 ### Proper tags and elements
 

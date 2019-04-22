@@ -5,7 +5,7 @@ description: This is the set of color variables used in our product portfolio.
 # Colors
 
 {% hint style="info" %}
- View in[ Abstract](https://share.goabstract.com/356c86b5-84b3-48b7-8291-b898d23252f2)
+ View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
 {% endhint %}
 
 ## Primary Colors
@@ -32,8 +32,6 @@ General color scheme to define main layout areas, like navigation, borders, back
 | ![](../../.gitbook/assets/semi-white.svg) Semi-white                | `#F8F9FA` | 248, 249, 250 |
 | ![](../../.gitbook/assets/white.svg) White | `#FFFFFF` | 255 ,255, 255 |
 
-
-
 ### Blue Palette
 
 Blue is used in two different scenarios, to inform or highlight an element without any state association. The second usecase is to be used as a visual signifier of interactivity in our products.
@@ -50,6 +48,8 @@ Blue is used in two different scenarios, to inform or highlight an element witho
 | ![](../../.gitbook/assets/light-blue-2.svg) Light-blue-2 | `#D3EDFD` | 211, 237, 253 |
 | ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
 | ![](../../.gitbook/assets/semi-white-blue.svg) Semi-white-blue | `#F4FBFF` | 244, 251, 255 |
+
+## 
 
 ## Secondary Colors
 
@@ -72,24 +72,83 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
 | ![](../../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
 
-## Diagram Colors
+### Yellow Palette
 
-### Complimentary Palette
-
-
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`9DDBC6 | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`7ACCD4 | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`34ADF0 | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) D400 | `#`2C96F2 | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) D500 | `#`3F77E9 | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) D600 | `#`535AE0 | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`535AE0 | 195, 241, 210 |
-| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#D7F6E1` | 215, 246, 225 |
-| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#EBFAF0` | 235, 250, 240 |
-| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#F5FDF7` | 245, 253, 247D |
+| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-1 | `#26925E` | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#2BA664` | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-green-3.svg) Dark-green-3 | `#31BB67` | 49, 187, 103 |
+| ![](../../.gitbook/assets/green-1.svg) Green-1  `CoreColor` | `#36D068` | 54, 208, 104 |
+| ![](../../.gitbook/assets/green-2.svg) Green-2 | `#68DC8E` | 104, 220, 142 |
+| ![](../../.gitbook/assets/green-3.svg) Green-3 | `#9BE8B4` | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-green-1.svg) Light-green-1 | `#C3F1D2` | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-green-2.svg) Light-green-2 | `#D7F6E1` | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
+
+### Red Palette
+
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+
+| Name | Hex | RGB |
+| :--- | :--- | ---: |
+| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-1 | `#26925E` | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#2BA664` | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-green-3.svg) Dark-green-3 | `#31BB67` | 49, 187, 103 |
+| ![](../../.gitbook/assets/green-1.svg) Green-1  `CoreColor` | `#36D068` | 54, 208, 104 |
+| ![](../../.gitbook/assets/green-2.svg) Green-2 | `#68DC8E` | 104, 220, 142 |
+| ![](../../.gitbook/assets/green-3.svg) Green-3 | `#9BE8B4` | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-green-1.svg) Light-green-1 | `#C3F1D2` | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-green-2.svg) Light-green-2 | `#D7F6E1` | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
+
+## 
+
+## Diagram Colors
+
+{% hint style="info" %}
+ View in [Abstract](https://share.goabstract.com/f5bc4f11-2ca1-4b78-82e6-c6e113b610cc)
+{% endhint %}
+
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+
+### Complimentary Palette
+
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+
+| Name | Hex | RGB |
+| :--- | :--- | ---: |
+| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`5CE6A1 | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`4EEABE | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`40EEE4 | 49, 187, 103 |
+| ![](../../.gitbook/assets/green-1.svg) D400 | `#`31D3F3 | 54, 208, 104 |
+| ![](../../.gitbook/assets/green-2.svg) D500 | `#`22A5F7 | 104, 220, 142 |
+| ![](../../.gitbook/assets/green-3.svg) D600 | `#`2473EE | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`2545E6 | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#`3227DD | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#`5A28D5 | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
+
+### Complimentary Palette
+
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+
+| Name | Hex | RGB |
+| :--- | :--- | ---: |
+| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`5CE6A1 | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`4EEABE | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`40EEE4 | 49, 187, 103 |
+| ![](../../.gitbook/assets/green-1.svg) D400 | `#`31D3F3 | 54, 208, 104 |
+| ![](../../.gitbook/assets/green-2.svg) D500 | `#`22A5F7 | 104, 220, 142 |
+| ![](../../.gitbook/assets/green-3.svg) D600 | `#`2473EE | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`2545E6 | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#`3227DD | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#`5A28D5 | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
 
 ## 
 
@@ -113,7 +172,7 @@ mix(coreColor + white (intensity/100));
 
 {% tabs %}
 {% tab title="Font" %}
-
+\`[https://www.colorbox.io/\#steps=10\#hue\_start=150\#hue\_end=271\#hue\_curve=linear\#sat\_start=20\#sat\_end=40\#sat\_curve=linear\#sat\_rate=200\#lum\_start=85\#lum\_end=80\#lum\_curve=linear\#lock\_hex=22A5F7\#minor\_steps\_map=none](https://www.colorbox.io/#steps=10#hue_start=150#hue_end=271#hue_curve=linear#sat_start=20#sat_end=40#sat_curve=linear#sat_rate=200#lum_start=85#lum_end=80#lum_curve=linear#lock_hex=22A5F7#minor_steps_map=none)\`
 {% endtab %}
 
 {% tab title="Border" %}
