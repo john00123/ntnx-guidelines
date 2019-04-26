@@ -116,24 +116,26 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
-### Complimentary Palette
+### Sequential Palette
 
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
 | Name | Hex | RGB |
-| :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`5CE6A1 | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`4EEABE | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`40EEE4 | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) D400 | `#`31D3F3 | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) D500 | `#`22A5F7 | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) D600 | `#`2473EE | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`2545E6 | 195, 241, 210 |
-| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#`3227DD | 215, 246, 225 |
-| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#`5A28D5 | 235, 250, 240 |
-| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
+| :--- | :--- | :--- |
+| ![](../../.gitbook/assets/dark-blue-1.svg) Dark-blue-1 | `#1856AD` | 24, 86, 173 |
+| ![](../../.gitbook/assets/dark-blue-2.svg) Dark-blue-2 | `#1B6DC6` | 27, 109, 198 |
+| ![](../../.gitbook/assets/dark-blue-3.svg) Dark-blue-3 | `#1F88DE` | 31, 136, 222 |
+| ![](../../.gitbook/assets/blue-1.svg) Blue-1 `CoreColor` | `#22A5F7` | 34, 165, 247 |
+| ![](../../.gitbook/assets/blue-2.svg) Blue-2 | `#59BCF9` | 89, 188, 249 |
+| ![](../../.gitbook/assets/blue-3.svg) Blue-3 | `#91D2FB` | 145, 210, 251 |
+| ![](../../.gitbook/assets/light-blue-1.svg) Light-blue-1 | `#BDE4FD` | 189, 228, 253 |
+| ![](../../.gitbook/assets/light-blue-2.svg) Light-blue-2 | `#D3EDFD` | 211, 237, 253 |
+| ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
+| ![](../../.gitbook/assets/semi-white-blue.svg) Semi-white-blue | `#F4FBFF` | 244, 251, 255 |
 
-### Complimentary Palette
+### 
+
+### Diverging Palette
 
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
@@ -151,6 +153,23 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
 
 ## 
+
+### Catergorical / Qualitative Palette
+
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+
+| Name | Hex | RGB |
+| :--- | :--- | ---: |
+| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`5CE6A1 | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`4EEABE | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`40EEE4 | 49, 187, 103 |
+| ![](../../.gitbook/assets/green-1.svg) D400 | `#`31D3F3 | 54, 208, 104 |
+| ![](../../.gitbook/assets/green-2.svg) D500 | `#`22A5F7 | 104, 220, 142 |
+| ![](../../.gitbook/assets/green-3.svg) D600 | `#`2473EE | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`2545E6 | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#`3227DD | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#`5A28D5 | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
 
 ## Color Equations
 
