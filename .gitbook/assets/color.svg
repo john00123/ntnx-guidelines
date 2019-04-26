@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80" rx="9"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, -9.000000)">
+            <g id="Group" transform="translate(0.000000, 9.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-Copy-2" fill="#22272E" xlink:href="#path-1"></use>
+                <circle id="Oval" fill="#22A5F7" mask="url(#mask-2)" transform="translate(54.758330, 42.758330) rotate(-60.000000) translate(-54.758330, -42.758330) " cx="54.7583302" cy="42.7583302" r="13"></circle>
+                <circle id="Oval-Copy" fill="#DC4D57" mask="url(#mask-2)" transform="translate(26.758330, 55.758330) rotate(-120.000000) translate(-26.758330, -55.758330) " cx="26.7583302" cy="55.7583302" r="13"></circle>
+                <circle id="Oval-Copy-2" fill="#2BA664" mask="url(#mask-2)" transform="translate(31.000000, 25.000000) rotate(-270.000000) translate(-31.000000, -25.000000) " cx="31" cy="25" r="13"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

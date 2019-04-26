@@ -6,7 +6,6 @@
 
 * [Accesibility](principles/accesibility.md)
 * [Iconography](principles/iconography.md)
-* [Animations](principles/animations.md)
 
 ## Primitives
 

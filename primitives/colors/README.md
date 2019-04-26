@@ -5,7 +5,7 @@ description: This is the set of color variables used in our product portfolio.
 # Colors
 
 {% hint style="info" %}
- View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
+View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
 {% endhint %}
 
 ## Primary Colors
