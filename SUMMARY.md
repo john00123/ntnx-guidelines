@@ -5,12 +5,15 @@
 ## Principles
 
 * [Accesibility](principles/accesibility.md)
-* [Colors](principles/colors/README.md)
-  * [Color usage](principles/colors/color-usage.md)
-* [Grid](principles/grid.md)
-* [Typography](principles/typography.md)
 * [Iconography](principles/iconography.md)
 * [Animations](principles/animations.md)
+
+## Primitives
+
+* [Colors](primitives/colors/README.md)
+  * [Color usage](primitives/colors/color-usage.md)
+* [Typography](primitives/typography.md)
+* [Spacing](primitives/grid.md)
 
 ## Navigation
 
