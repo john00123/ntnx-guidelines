@@ -4,9 +4,7 @@ description: Design system helps teams build high-quality digital experiences​
 
 # Nutanix Design System
 
-1. \*\*\*\*
-2. \*\*\*\*
-3. **Unified**
+1. 2. 3. **Unified**
 
    Each piece is part of a greater whole and should contribute positively to the system at scale. There should be no isolated features or outliers.
 

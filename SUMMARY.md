@@ -12,7 +12,7 @@
 * [Colors](primitives/colors/README.md)
   * [Color usage](primitives/colors/color-usage.md)
 * [Typography](primitives/typography.md)
-* [Spacing](primitives/grid.md)
+* [Grid & Spacing](primitives/grid.md)
 
 ## Navigation
 
