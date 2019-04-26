@@ -1,16 +1,12 @@
 ---
-description: >-
-  Our main goal is to create inclusive experiences across all of our product
-  offerings. #WCAG
+description: Our main goal is to create inclusive experiences across all of our products.
 ---
 
 # Accesibility
 
-## Principles
-
-Make sure that the information flows in order of their level of importance so that there is a clear structure to the page.
-
 ### Color Contrast
+
+![](../.gitbook/assets/contrast.svg)
 
 Some users find it hard to read light gray text on a white background, dark gray text on a black background and white text on a red background.
 
