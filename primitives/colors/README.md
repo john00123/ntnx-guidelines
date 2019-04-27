@@ -1,16 +1,20 @@
 ---
-description: This is the set of color variables used in our product portfolio.
+description: >-
+  At Nutanix we use color in meaningful ways. We work with a unified color
+  palette to bring visual alignment across our products.
 ---
 
-# Colors
+# Color
 
-{% hint style="info" %}
-View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
-{% endhint %}
+
 
 ## Primary Colors
 
 Our primary palette includes neutral, white, and blue. These colors are present across most places in our product.
+
+{% hint style="info" %}
+View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
+{% endhint %}
 
 ### Neutral Palette
 
