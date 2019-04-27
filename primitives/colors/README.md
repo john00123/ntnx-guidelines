@@ -6,19 +6,17 @@ description: >-
 
 # Color
 
-
-
-## Primary Colors
-
-Our primary palette includes neutral, white, and blue. These colors are present across most places in our product.
-
 {% hint style="info" %}
 View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
 {% endhint %}
 
+## Primary Colors
+
+Our primary set of colors includes neutral and blue palettes. These colors are present across most places in our product, displaying different levels of information and interactivity.
+
 ### Neutral Palette
 
-General color scheme to define main layout areas, like navigation, borders, backgrounds, and  typographic elements.
+This is Nutanix general color scheme to define main layout areas, like navigation, section backgrounds, and typographic elements. Please refer to \#colorusage to see how these colors are used.
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
@@ -82,16 +80,16 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-1 | `#26925E` | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#2BA664` | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) Dark-green-3 | `#31BB67` | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) Green-1  `CoreColor` | `#36D068` | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) Green-2 | `#68DC8E` | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) Green-3 | `#9BE8B4` | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) Light-green-1 | `#C3F1D2` | 195, 241, 210 |
-| ![](../../.gitbook/assets/light-green-2.svg) Light-green-2 | `#D7F6E1` | 215, 246, 225 |
-| ![](../../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
-| ![](../../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
+| ![](../../.gitbook/assets/dark-yellow-1.svg) Dark-yellow-1 | `#26925E` | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-yellow-2.svg) Dark-yellow-2 | `#2BA664` | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-yellow-3.svg) Dark-yellow-3 | `#31BB67` | 49, 187, 103 |
+| ![](../../.gitbook/assets/yellow-1.svg) Yellow-1  `CoreColor` | `#36D068` | 54, 208, 104 |
+| ![](../../.gitbook/assets/yellow-2.svg) Yellow-2 | `#68DC8E` | 104, 220, 142 |
+| ![](../../.gitbook/assets/yellow-3.svg) Yellow-3 | `#9BE8B4` | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-yellow-1.svg) Light-yellow-1 | `#C3F1D2` | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-yellow-2.svg) Light-yellow-2 | `#D7F6E1` | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-yellow-3.svg) Light-yellow-3 | `#EBFAF0` | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-yellow.svg) Semi-white-yellow | `#F5FDF7` | 245, 253, 247D |
 
 ### Red Palette
 
@@ -99,16 +97,16 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-1 | `#26925E` | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#2BA664` | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) Dark-green-3 | `#31BB67` | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) Green-1  `CoreColor` | `#36D068` | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) Green-2 | `#68DC8E` | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) Green-3 | `#9BE8B4` | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) Light-green-1 | `#C3F1D2` | 195, 241, 210 |
-| ![](../../.gitbook/assets/light-green-2.svg) Light-green-2 | `#D7F6E1` | 215, 246, 225 |
-| ![](../../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
-| ![](../../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
+| ![](../../.gitbook/assets/dark-red-3.svg) Dark-red-1 | `#26925E` | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-red-2.svg) Dark-red-2 | `#2BA664` | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-red-1.svg) Dark-red-3 | `#31BB67` | 49, 187, 103 |
+| ![](../../.gitbook/assets/red-1.svg) Red-1  `CoreColor` | `#36D068` | 54, 208, 104 |
+| ![](../../.gitbook/assets/red-2.svg) Red-2 | `#68DC8E` | 104, 220, 142 |
+| ![](../../.gitbook/assets/red-3.svg) Red-3 | `#9BE8B4` | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-red-1.svg) Light-red-1 | `#C3F1D2` | 195, 241, 210 |
+| ![](../../.gitbook/assets/light-red-2.svg) Light-red-2 | `#D7F6E1` | 215, 246, 225 |
+| ![](../../.gitbook/assets/light-red-3.svg) Light-red-3 | `#EBFAF0` | 235, 250, 240 |
+| ![](../../.gitbook/assets/semi-white-red.svg) Semi-white-red | `#F5FDF7` | 245, 253, 247D |
 
 ## 
 
@@ -135,7 +133,6 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/light-blue-1.svg) Light-blue-1 | `#BDE4FD` | 189, 228, 253 |
 | ![](../../.gitbook/assets/light-blue-2.svg) Light-blue-2 | `#D3EDFD` | 211, 237, 253 |
 | ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
-| ![](../../.gitbook/assets/semi-white-blue.svg) Semi-white-blue | `#F4FBFF` | 244, 251, 255 |
 
 ### 
 
@@ -190,20 +187,4 @@ adjust-hue(coreColor + black (intensity/100), n-4)
 ```css
 mix(coreColor + white (intensity/100));
 ```
-
-## Color Usage
-
-{% tabs %}
-{% tab title="Font" %}
-\`[https://www.colorbox.io/\#steps=10\#hue\_start=150\#hue\_end=271\#hue\_curve=linear\#sat\_start=20\#sat\_end=40\#sat\_curve=linear\#sat\_rate=200\#lum\_start=85\#lum\_end=80\#lum\_curve=linear\#lock\_hex=22A5F7\#minor\_steps\_map=none](https://www.colorbox.io/#steps=10#hue_start=150#hue_end=271#hue_curve=linear#sat_start=20#sat_end=40#sat_curve=linear#sat_rate=200#lum_start=85#lum_end=80#lum_curve=linear#lock_hex=22A5F7#minor_steps_map=none)\`
-{% endtab %}
-
-{% tab title="Border" %}
-
-{% endtab %}
-
-{% tab title="Background" %}
-
-{% endtab %}
-{% endtabs %}
 
