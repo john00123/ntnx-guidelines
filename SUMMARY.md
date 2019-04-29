@@ -5,7 +5,10 @@
 ## Principles
 
 * [Accesibility](principles/accesibility.md)
+* [Product Logos](principles/product-logos.md)
 * [Iconography](principles/iconography.md)
+* [Illustrations](principles/illustrations.md)
+* [Shape](principles/shape.md)
 
 ## Primitives
 
@@ -14,17 +17,13 @@
 * [Typography](primitives/typography.md)
 * [Grid & Spacing](primitives/grid.md)
 
-## Navigation
+## Component
 
-* [Steps](navigation/steps.md)
-* [Header](navigation/header.md)
-* [Tabs](navigation/tabs.md)
+* [Buttons](components/buttons.md)
 
 ## ⚠️ Components in Review
 
-* [Upload](components-in-review/upload/README.md)
-  * [Script Upload](components-in-review/upload/script-upload.md)
-  * [File Upload](components-in-review/upload/file-upload.md)
+* [Upload](components-in-review/upload.md)
 
 ## OTHER RESOURCES
 
