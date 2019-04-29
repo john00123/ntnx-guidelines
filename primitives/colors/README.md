@@ -53,7 +53,7 @@ Blue is used in two different scenarios, to inform or highlight an element witho
 
 ## Secondary Colors
 
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states.
 
 ### Green Palette
 
@@ -108,7 +108,7 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 
 ## 
 
-## Diagram Colors
+## Diagram Palettes
 
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 

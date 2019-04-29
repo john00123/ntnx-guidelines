@@ -6,6 +6,12 @@ description: >-
 
 # Grid & Spacing
 
+### Baseline size
+
+Our baseline is 5px, this is consistently use in all general layout areas of our UI.
+
+
+
 ### Spacing sizes
 
 
