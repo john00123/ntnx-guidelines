@@ -6,17 +6,15 @@ description: >-
 
 # Color
 
-{% hint style="info" %}
-View in[ Abstract](https://share.goabstract.com/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0) 
-{% endhint %}
+## Primary Colors   
 
-## Primary Colors
+Our primary set of colors includes neutral and blue palettes. These colors are present across most places in our product, displaying different levels of information and interactivity.  
 
-Our primary set of colors includes neutral and blue palettes. These colors are present across most places in our product, displaying different levels of information and interactivity.
+> ![](../../.gitbook/assets/abstract.svg) [Open in abstract](https://app.goabstract.com/share/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0)
 
 ### Neutral Palette
 
-This is Nutanix general color scheme to define main layout areas, like navigation, section backgrounds, and typographic elements. Please refer to \#colorusage to see how these colors are used.
+This is Nutanix general color scheme to define main layout areas, like navigation, section backgrounds, and typographic elements. Please refer to [Color usage](color-usage.md) to see examples in more context.
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
@@ -51,7 +49,7 @@ Blue is used in two different scenarios, to inform or highlight an element witho
 | ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
 | ![](../../.gitbook/assets/semi-white-blue.svg) Semi-white-blue | `#F4FBFF` | 244, 251, 255 |
 
-## 
+
 
 ## Secondary Colors
 
@@ -112,10 +110,6 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 
 ## Diagram Colors
 
-{% hint style="info" %}
- View in [Abstract](https://share.goabstract.com/f5bc4f11-2ca1-4b78-82e6-c6e113b610cc)
-{% endhint %}
-
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
 ### Sequential Palette
@@ -134,43 +128,37 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/light-blue-2.svg) Light-blue-2 | `#D3EDFD` | 211, 237, 253 |
 | ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
 
-### 
-
 ### Diverging Palette
 
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`5CE6A1 | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`4EEABE | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`40EEE4 | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) D400 | `#`31D3F3 | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) D500 | `#`22A5F7 | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) D600 | `#`2473EE | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`2545E6 | 195, 241, 210 |
-| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#`3227DD | 215, 246, 225 |
-| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#`5A28D5 | 235, 250, 240 |
-| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
+| ![](../../.gitbook/assets/dark-red-2.svg) Dark-red-2 | `#`5CE6A1 | 38, 146, 94 |
+| ![](../../.gitbook/assets/red-1.svg) Red-1 | `#`4EEABE | 43, 166, 100 |
+| ![](../../.gitbook/assets/red-3.svg) Red-3 | `#`40EEE4 | 49, 187, 103 |
+| ![](../../.gitbook/assets/light-red-2.svg) Light-red-2 | `#`31D3F3 | 54, 208, 104 |
+| ![](../../.gitbook/assets/semi-white.svg) Semi-white | `#`22A5F7 | 104, 220, 142 |
+| ![](../../.gitbook/assets/light-green-2.svg) Light-green-2 | `#`2473EE | 155, 232, 180 |
+| ![](../../.gitbook/assets/green-3.svg) Green-3 | `#`2545E6 | 195, 241, 210 |
+| ![](../../.gitbook/assets/green-1.svg) Green-1 | `#`3227DD | 215, 246, 225 |
+| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#`5A28D5 | 235, 250, 240 |
 
-## 
-
-### Catergorical / Qualitative Palette
+### Categorical / Qualitative Palette
 
 Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) D100 | `#`5CE6A1 | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) D200 | `#`4EEABE | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) D300 | `#`40EEE4 | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) D400 | `#`31D3F3 | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) D500 | `#`22A5F7 | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) D600 | `#`2473EE | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) D700 | `#`2545E6 | 195, 241, 210 |
-| ![](../../.gitbook/assets/light-green-2.svg) D800 | `#`3227DD | 215, 246, 225 |
-| ![](../../.gitbook/assets/light-green-3.svg) D900 | `#`5A28D5 | 235, 250, 240 |
-| ![](../../.gitbook/assets/semi-white-green.svg) D1000 | `#`7D29CC | 245, 253, 247D |
+| ![](../../.gitbook/assets/dark-green-2.svg) Purple-1 | `#`5CE6A1 | 38, 146, 94 |
+| ![](../../.gitbook/assets/dark-green-2.svg) Fuscia-1 | `#`4EEABE | 43, 166, 100 |
+| ![](../../.gitbook/assets/dark-green-3.svg) Blue-1 | `#`40EEE4 | 49, 187, 103 |
+| ![](../../.gitbook/assets/green-1.svg) Turquoise-1 | `#`31D3F3 | 54, 208, 104 |
+| ![](../../.gitbook/assets/green-2.svg) Mint-1 | `#`22A5F7 | 104, 220, 142 |
+| ![](../../.gitbook/assets/green-3.svg) Green-1 | `#`2473EE | 155, 232, 180 |
+| ![](../../.gitbook/assets/light-green-1.svg) Orange-1 | `#`2545E6 | 195, 241, 210 |
+
+
 
 ## Color Equations
 
@@ -187,4 +175,8 @@ adjust-hue(coreColor + black (intensity/100), n-4)
 ```css
 mix(coreColor + white (intensity/100));
 ```
+
+**Categorical color equation**
+
+\*\*\*\*
 

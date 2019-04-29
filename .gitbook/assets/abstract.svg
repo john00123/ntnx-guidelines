@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Rectangle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,20 C18,20 20,18 20,10 C20,2 18,0 10,0 C2,0 0,2 0,10 C0,18 2,20 10,20 L10,20 Z" id="Path" fill="#191A1B" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="15 15 13.2352941 15 13.2352941 6.76470588 5 6.76470588 5 5 15 5"></polygon>
+        <path d="M8.00005844,16 C6.38217057,16 4.92360328,15.0253711 4.30452863,13.530611 C3.68545399,12.0358509 4.02779801,10.3153508 5.1719158,9.17142957 C6.31603358,8.02750837 8.03659247,7.68546004 9.53124614,8.30479159 C11.0258998,8.92412314 12.000278,10.3828579 11.9999999,12.0007458 C11.9973478,14.2086418 10.2079548,15.9977274 8.00005844,16 M8,10 C6.8954305,10 6,10.8954305 6,12 C6,13.1045695 6.8954305,14 8,14 C9.1045695,14 10,13.1045695 10,12 C9.99851569,10.8960459 9.10395409,10.0014843 8,10" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
