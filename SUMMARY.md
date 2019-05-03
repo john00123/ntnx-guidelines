@@ -10,6 +10,10 @@
 * [Illustrations](principles/illustrations.md)
 * [Shape](principles/shape.md)
 
+## Animations
+
+* [General Rules](animations/general-rules.md)
+
 ## Primitives
 
 * [Color](primitives/colors/README.md)
