@@ -8,8 +8,6 @@ description: Guidelines for Illustrations in marketing and product.
 
 ​​When using color, be wary of any connotations that certain shades may have; the majority of illustrations will have a grey base. The majority of illustrations can be created using a stroke width of 2 pixels.
 
-
-
 <table>
   <thead>
     <tr>
