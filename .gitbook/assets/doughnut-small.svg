@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="130px" viewBox="0 0 250 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Graph</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Doughnut-Charts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Examples" transform="translate(-25.000000, -286.000000)">
+            <g id="Small" transform="translate(30.000000, 261.000000)">
+                <g id="Graph" transform="translate(0.000000, 30.000000)">
+                    <rect id="Background" stroke="#F2F4F6" stroke-width="10" fill="#FFFFFF" x="0" y="0" width="240" height="120" rx="4"></rect>
+                    <g id="Chart" transform="translate(29.000000, 28.000000)">
+                        <g id="Pie-Chart">
+                            <rect id="Bounds" x="0" y="0" width="60" height="60"></rect>
+                            <circle id="Track" stroke="#BBE3FE" cx="30" cy="30" r="29.5"></circle>
+                            <path d="M50.0060967,49.5 C55.2540644,44.4116882 58.5,37.382251 58.5,29.617749 C58.5,14.088745 45.5162577,1.5 29.5,1.5" id="Fill" stroke="#22A5F7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                        <text id="37.5%" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                            <tspan x="14" y="38">37.5%</tspan>
+                        </text>
+                        <text id="30" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="18" font-weight="normal" line-spacing="12" fill="#22272E">
+                            <tspan x="83" y="29">30</tspan>
+                        </text>
+                        <text id="Apples-Sold" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#627386">
+                            <tspan x="83" y="47">Apples Sold</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

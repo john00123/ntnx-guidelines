@@ -6,15 +6,15 @@ description: >-
 
 # Color
 
-## Primary Colors   
+We are always striving to use colors in a thougful way. Our different palettes cover several of the use cases in our products today.  
 
-Our primary set of colors includes neutral and blue palettes. These colors are present across most places in our product, displaying different levels of information and interactivity.  
-
-> ![](../../.gitbook/assets/abstract.svg) [Open in abstract](https://app.goabstract.com/share/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0)
+{% hint style="info" %}
+[Open in abstract](https://app.goabstract.com/share/ce4d3f63-eb87-4789-84b8-5abd90f7e0c0)
+{% endhint %}
 
 ### Neutral Palette
 
-This is Nutanix general color scheme to define main layout areas, like navigation, section backgrounds, and typographic elements. Please refer to [Color usage](color-usage.md) to see examples in more context.
+This is Nutanix general color scheme to define main layout areas, like navigation, section backgrounds, and typographic elements.
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
@@ -32,6 +32,11 @@ This is Nutanix general color scheme to define main layout areas, like navigatio
 | ![](../../.gitbook/assets/semi-white.svg) Semi-white                | `#F8F9FA` | 248, 249, 250 |
 | ![](../../.gitbook/assets/white.svg) White | `#FFFFFF` | 255 ,255, 255 |
 
+#### Best practices
+
+* Make sure that to use colors with similar tonality. Nutanix **Neutral Palette** has blue a base, so combining with regular desaturated colors can break to harmony between between them. Make sure to reference you Color equation section, to learn more about how these colors were derived.
+* Try to minimize the use of too many different tonalities in a single page. 
+* 
 ### Blue Palette
 
 Blue is used in two different scenarios, to inform or highlight an element without any state association. The second usecase is to be used as a visual signifier of interactivity in our products.
@@ -49,15 +54,16 @@ Blue is used in two different scenarios, to inform or highlight an element witho
 | ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
 | ![](../../.gitbook/assets/semi-white-blue.svg) Semi-white-blue | `#F4FBFF` | 244, 251, 255 |
 
+#### Best practices
+
+* Blue is a color to denote to different meanings, information and interactivity. Make sure that you use color in a way that the user would not be confused by which interpretation is in place.
+* Used more prevalently in active selection, primary buttons and links and progress.
 
 
-## Secondary Colors
-
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states.
 
 ### Green Palette
 
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+This functional palette is focused on displaying success or positive information to the user.
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
@@ -72,9 +78,16 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/light-green-3.svg) Light-green-3 | `#EBFAF0` | 235, 250, 240 |
 | ![](../../.gitbook/assets/semi-white-green.svg) Semi-white-green | `#F5FDF7` | 245, 253, 247D |
 
+#### Best practices
+
+* Use green for times that a positive a success action has taken place.
+* Avoid having buttons with green as the base color. 
+
+
+
 ### Yellow Palette
 
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+This functional palette is focused on displaying warning or alert information to the user.
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
@@ -89,9 +102,13 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/light-yellow-3.svg) Light-yellow-3 | `#EBFAF0` | 235, 250, 240 |
 | ![](../../.gitbook/assets/semi-white-yellow.svg) Semi-white-yellow | `#F5FDF7` | 245, 253, 247D |
 
+#### Best practices
+
+* Yellow has a low contrast on white background, make sure to minimize the use of this color unless denominating warning states in the interface. 
+* 
 ### Red Palette
 
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
+This functional palette is focused on displaying error or critical information to the user.
 
 | Name | Hex | RGB |
 | :--- | :--- | ---: |
@@ -106,77 +123,10 @@ Our secondary palette includes colors like red, green and yellow. These have a m
 | ![](../../.gitbook/assets/light-red-3.svg) Light-red-3 | `#EBFAF0` | 235, 250, 240 |
 | ![](../../.gitbook/assets/semi-white-red.svg) Semi-white-red | `#F5FDF7` | 245, 253, 247D |
 
-## 
+#### Best practices
 
-## Diagram Palettes
-
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
-
-### Sequential Palette
-
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
-
-| Name | Hex | RGB |
-| :--- | :--- | :--- |
-| ![](../../.gitbook/assets/dark-blue-1.svg) Dark-blue-1 | `#1856AD` | 24, 86, 173 |
-| ![](../../.gitbook/assets/dark-blue-2.svg) Dark-blue-2 | `#1B6DC6` | 27, 109, 198 |
-| ![](../../.gitbook/assets/dark-blue-3.svg) Dark-blue-3 | `#1F88DE` | 31, 136, 222 |
-| ![](../../.gitbook/assets/blue-1.svg) Blue-1 `CoreColor` | `#22A5F7` | 34, 165, 247 |
-| ![](../../.gitbook/assets/blue-2.svg) Blue-2 | `#59BCF9` | 89, 188, 249 |
-| ![](../../.gitbook/assets/blue-3.svg) Blue-3 | `#91D2FB` | 145, 210, 251 |
-| ![](../../.gitbook/assets/light-blue-1.svg) Light-blue-1 | `#BDE4FD` | 189, 228, 253 |
-| ![](../../.gitbook/assets/light-blue-2.svg) Light-blue-2 | `#D3EDFD` | 211, 237, 253 |
-| ![](../../.gitbook/assets/light-blue-3.svg) Light-blue-3 | `#E9F6FE` | 233, 246, 254 |
-
-### Diverging Palette
-
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
-
-| Name | Hex | RGB |
-| :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-red-2.svg) Dark-red-2 | `#`5CE6A1 | 38, 146, 94 |
-| ![](../../.gitbook/assets/red-1.svg) Red-1 | `#`4EEABE | 43, 166, 100 |
-| ![](../../.gitbook/assets/red-3.svg) Red-3 | `#`40EEE4 | 49, 187, 103 |
-| ![](../../.gitbook/assets/light-red-2.svg) Light-red-2 | `#`31D3F3 | 54, 208, 104 |
-| ![](../../.gitbook/assets/semi-white.svg) Semi-white | `#`22A5F7 | 104, 220, 142 |
-| ![](../../.gitbook/assets/light-green-2.svg) Light-green-2 | `#`2473EE | 155, 232, 180 |
-| ![](../../.gitbook/assets/green-3.svg) Green-3 | `#`2545E6 | 195, 241, 210 |
-| ![](../../.gitbook/assets/green-1.svg) Green-1 | `#`3227DD | 215, 246, 225 |
-| ![](../../.gitbook/assets/dark-green-2.svg) Dark-green-2 | `#`5A28D5 | 235, 250, 240 |
-
-### Categorical / Qualitative Palette
-
-Our secondary palette includes colors like red, green and yellow. These have a more direct association with states of critical, success and warning states
-
-| Name | Hex | RGB |
-| :--- | :--- | ---: |
-| ![](../../.gitbook/assets/dark-green-2.svg) Purple-1 | `#`5CE6A1 | 38, 146, 94 |
-| ![](../../.gitbook/assets/dark-green-2.svg) Fuscia-1 | `#`4EEABE | 43, 166, 100 |
-| ![](../../.gitbook/assets/dark-green-3.svg) Blue-1 | `#`40EEE4 | 49, 187, 103 |
-| ![](../../.gitbook/assets/green-1.svg) Turquoise-1 | `#`31D3F3 | 54, 208, 104 |
-| ![](../../.gitbook/assets/green-2.svg) Mint-1 | `#`22A5F7 | 104, 220, 142 |
-| ![](../../.gitbook/assets/green-3.svg) Green-1 | `#`2473EE | 155, 232, 180 |
-| ![](../../.gitbook/assets/light-green-1.svg) Orange-1 | `#`2545E6 | 195, 241, 210 |
-
-
-
-## Color Equations
-
-To create our variables we used an equation using a CoreColor and hue rotation to achieve a consistent array across different bases.
-
-#### Darken color equation
-
-```css
-adjust-hue(coreColor + black (intensity/100), n-4)
-```
-
-#### Lighten color equation
-
-```css
-mix(coreColor + white (intensity/100));
-```
-
-**Categorical color equation**
-
+* Red is asociated with critical or alerts in our UI, make sure to use the color sporadically to avoid overwelming the customer's view.
+* In the past there were charts using these colors, we have removed them from the palette. 
+* 
 \*\*\*\*
 
