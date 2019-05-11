@@ -37,7 +37,11 @@ Never use colors beyond this palette, or alter the opacity of colors / strokes. 
       <td style="text-align:left">Only use one set of shades for a color per object.</td>
     </tr>
   </tbody>
-</table>### Stroke
+</table>### 
+
+### 
+
+### Stroke
 
 ​​When using color, be wary of any connotations that certain shades may have; the majority of illustrations will have a grey base. The majority of illustrations can be created using a stroke width of 2 pixels.
 
