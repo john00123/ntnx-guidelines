@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="76px" viewBox="0 0 60 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="41.0102249%" y1="6.63683429%" x2="57.4090814%" y2="63.7778713%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="0%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Jira-Service-Desk-blue" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.004950, 0.000000)">
+                <path d="M35.3350504,29.92 L55.9450504,30 C57.1591086,30.0056615 58.2660934,30.6957818 58.8056545,31.7833676 C59.3452156,32.8709535 59.2250193,34.1698894 58.4950504,35.14 L28.0750504,75.76 C23.4821465,72.3299227 20.440269,67.2155282 19.6188243,61.5423081 C18.7973795,55.8690881 20.2636814,50.101939 23.6950504,45.51 L35.3350504,29.92 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <path d="M23.6850504,45.51 L3.19505044,45.38 C1.98099231,45.3743385 0.874007458,44.6842182 0.334446374,43.5966324 C-0.20511471,42.5090465 -0.0849184203,41.2101106 0.645050438,40.24 L30.7650504,0 C35.3579544,3.43007733 38.3998319,8.54447182 39.2212766,14.2176919 C40.0427214,19.8909119 38.5764195,25.658061 35.1450504,30.25 L23.6850504,45.51 Z" id="Path" fill="#2684FF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
