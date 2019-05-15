@@ -5,7 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Color guidelines</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -13,14 +13,15 @@
     <tr>
       <td style="text-align:left">
         <p></p>
-        <p>Never use colors beyond this palette, or alter the opacity of colors /
-          strokes. The first and second row are used for motion lines and floor guides.</p>
         <p></p>
+        <p>Never use colors beyond this palette, or alter the opacity of fills /
+          strokes. The second and third row are used for motion lines and floor guides,
+          with the top being the primary stroke color.</p>
       </td>
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/0.png" alt/>
+          <img src="../../.gitbook/assets/image_preview.png" alt/>
         </p>
       </td>
     </tr>
@@ -56,7 +57,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Construction guidelines</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -162,7 +163,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Stroke guidelines</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -190,9 +191,12 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">For strokes on the floor plane, use lighter shades; with dashed lines
-        being a shade darker than solid lines. These equate to the first two rows
-        of the palette.</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>For strokes on the floor plane, use lighter shades; with dashed lines
+          being a shade darker than solid lines. These equate to the second and third
+          rows of the palette.</p>
+      </td>
       <td style="text-align:left">
         <p></p>
         <p>
@@ -228,7 +232,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Lighting guidelines</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -288,7 +292,7 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Scaling guidelines</th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
