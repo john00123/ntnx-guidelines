@@ -1,6 +1,14 @@
 # Website Illustration Guidelines
 
+### Overview
+
+This illustration system was first conceptualized as a means to enrich the user experience and inject character in to the Prism platform. Though it has since grown beyond its initial purpose, the same ethos that was at the core of our initial developments- to form a flexible, intertwined system for creating illustrations with an emphasis on abstraction that encourages creative use of detail- continues to run throughout our work.
+
+The guidelines below aim to adhere to this initial goal, while offering a platform that supports flexibility and scalability.
+
 ### Color
+
+The color palette is a continuation of that used in the Nutanix design system's [Color](../../primitives/colors/) page. We felt that it was important to provide the opportunity to explore a spectrum of colors diverse enough to apply to a myriad of circumstances, while staying true to the tones most commonly seen within the user interface. With this in mind, the fills were chosen to complement- rather than distract- the accompanying design language.
 
 <table>
   <thead>
@@ -53,6 +61,10 @@
 </table> 
 
 ### **Construction**
+
+The choice of orthographic \(isometric\) projection for illustrations came as a result of reflecting upon what we feel the Nutanix platform is, who our core audience are and how to best augment the existing design infrastructure.
+
+Nutanix is a multitude of complex, interconnecting products and services; all finely tuned to work synchronously and seamlessly, despite their intricate and often distinct nature. With isometric projection, we are utilizing a more methodical approach to illustration that is often synonymous with technical drawing. We felt that this offered ample opportunity to visualize what are often abstract concepts, whilst reflecting our customer’s requirement for a professional, precise service.
 
 <table>
   <thead>
@@ -160,6 +172,8 @@
 
 ### **Stroke**
 
+The decision to use outlines \(strokes\) for our illustrations ultimately came down to visibility and in order to promote abstraction. By utilizing a 2 pixel stroke through the vast majority of use cases, it encourages the illustrator to shy away from creating unnecessary detail solely through pixel count and instead support creativity through conceptualizing what can often be incredibly abstract concepts.
+
 <table>
   <thead>
     <tr>
@@ -229,6 +243,8 @@
 
 ### Lighting
 
+In keeping with our choice of palette and use of isometric construction, we felt that the lighting system should reflect our choice to abstract and simplify wherever possible. Although ‘physical’ objects are often portrayed, we are showing them in a relatively conceptual manner, with little detail and few properties that would make them akin to their true real-world form.
+
 <table>
   <thead>
     <tr>
@@ -288,6 +304,20 @@
 </table>
 
 ### Scaling
+
+Uniformity and consistency can often be an issue when creating illustrations across a platform as vast and diverse as that of Nutanix. These illustrations can appear on screens ranging from the minute to the mammoth. Though the use of strokes encourages greater thought and care when problem solving, it can lead to some issues with consistency when scaling and positioning both entire illustrations and individual objects.
+
+  
+With this in mind, set sizing guidelines have been created to prevent any problems that may arise from resizing images after their creation. These sizes act as the cornerstone for setting up a scene and realizing what is plausible given the context.
+
+| Width | Height | Type | Application |
+| :--- | :--- | :--- | :--- |
+| **900px** | **600px** | Extra Large | `Full Page no text` |
+| **440px** | **300px** | Large | `On-boarding (1)` `Popup`  `Empty State` |
+| **440px** | **200px** | Medium | `On-boarding (3)` `Popup` |
+| **126px** | **126px** | Square | `Empty State` `Multistep On-boarding` |
+
+\`\`
 
 <table>
   <thead>
