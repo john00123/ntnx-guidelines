@@ -13,7 +13,7 @@ The color palette is a continuation of that used in the Nutanix design system's 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Color guidelines</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -69,7 +69,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Construction guidelines</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -177,7 +177,7 @@ The decision to use outlines \(strokes\) for our illustrations ultimately came d
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Stroke guidelines</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -248,7 +248,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Lighting guidelines</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -317,12 +317,10 @@ With this in mind, set sizing guidelines have been created to prevent any proble
 | **440px** | **200px** | Medium | `On-boarding (3)` `Popup` |
 | **126px** | **126px** | Square | `Empty State` `Multistep On-boarding` |
 
-\`\`
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Scaling guidelines</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
