@@ -10,7 +10,7 @@ Some users find it hard to read light gray text on a white background, dark gray
 
 #### Contrast
 
-![](../.gitbook/assets/contrast.svg)
+![](../../.gitbook/assets/contrast.svg)
 
 | Font Size | Contrast ratio |
 | :--- | :--- |
@@ -24,9 +24,9 @@ Some users find it hard to distinguish certain range of tones. Nutanix color swa
 
 | Palette | Color Gamut |
 | :--- | :--- |
-| Default Palette | ![](../.gitbook/assets/lavender.svg)![](../.gitbook/assets/violet.svg)![](../.gitbook/assets/blue-1.svg)![](../.gitbook/assets/turquoise.svg)![](../.gitbook/assets/lime.svg)![](../.gitbook/assets/orange.svg)![](../.gitbook/assets/mustard.svg)![](../.gitbook/assets/wine.svg)  |
-| Deuteranopia & Protanopia | ![](../.gitbook/assets/deuteranopia-1.svg)![](../.gitbook/assets/deuteranopia-2.svg)![](../.gitbook/assets/deuteranopia-3.svg)![](../.gitbook/assets/deuteranopia-4.svg)![](../.gitbook/assets/deuteranopia-5.svg)![](../.gitbook/assets/deuteranopia-6.svg)![](../.gitbook/assets/deuteranopia-7.svg)![](../.gitbook/assets/deuteranopia-8.svg)  |
-| Tritanopia | ![](../.gitbook/assets/tritanopia-1.svg)![](../.gitbook/assets/tritanopia-2.svg)![](../.gitbook/assets/tritanopia-3.svg)![](../.gitbook/assets/tritanopia-4.svg)![](../.gitbook/assets/tritanopia-5.svg)![](../.gitbook/assets/tritanopia-6.svg)![](../.gitbook/assets/tritanopia-7.svg)![](../.gitbook/assets/tritanopia-8.svg)  |
+| Default Palette | ![](../../.gitbook/assets/lavender.svg)![](../../.gitbook/assets/violet.svg)![](../../.gitbook/assets/blue-1.svg)![](../../.gitbook/assets/turquoise.svg)![](../../.gitbook/assets/lime.svg)![](../../.gitbook/assets/orange.svg)![](../../.gitbook/assets/mustard.svg)![](../../.gitbook/assets/wine.svg)  |
+| Deuteranopia & Protanopia | ![](../../.gitbook/assets/deuteranopia-1.svg)![](../../.gitbook/assets/deuteranopia-2.svg)![](../../.gitbook/assets/deuteranopia-3.svg)![](../../.gitbook/assets/deuteranopia-4.svg)![](../../.gitbook/assets/deuteranopia-5.svg)![](../../.gitbook/assets/deuteranopia-6.svg)![](../../.gitbook/assets/deuteranopia-7.svg)![](../../.gitbook/assets/deuteranopia-8.svg)  |
+| Tritanopia | ![](../../.gitbook/assets/tritanopia-1.svg)![](../../.gitbook/assets/tritanopia-2.svg)![](../../.gitbook/assets/tritanopia-3.svg)![](../../.gitbook/assets/tritanopia-4.svg)![](../../.gitbook/assets/tritanopia-5.svg)![](../../.gitbook/assets/tritanopia-6.svg)![](../../.gitbook/assets/tritanopia-7.svg)![](../../.gitbook/assets/tritanopia-8.svg)  |
 
 
 
