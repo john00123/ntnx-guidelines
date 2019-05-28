@@ -8,8 +8,9 @@
   * [Baseline Accessibility Audit](principles/accesibility/untitled.md)
 * [Product Logos](principles/product-logos.md)
 
-## Content
+## Content & Research
 
+* [Research Guidelines](content/research-guidelines.md)
 * [Voice and Tone](content/untitled-1.md)
 * [Components](content/components.md)
 

@@ -300,8 +300,23 @@ In keeping with our choice of palette and use of isometric construction, we felt
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>Rounded reflective materials should show a simple, bold specular highlight.
+          Rounded transparent materials should use a lighter shade for inner edgers(as
+          above) with an appropriate gap between two different edge shades.</p>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <p>
+          <img src="../../.gitbook/assets/image.png" alt/>
+        </p>
+      </td>
+    </tr>
   </tbody>
-</table>
+</table>### 
 
 ### Scaling
 
