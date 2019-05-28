@@ -7,8 +7,11 @@
 * [Accesibility](principles/accesibility/README.md)
   * [Baseline Accessibility Audit](principles/accesibility/untitled.md)
 * [Product Logos](principles/product-logos.md)
-* [Content](principles/content/README.md)
-  * [Word List](principles/content/word-list.md)
+
+## Content
+
+* [Voice and Tone](content/untitled-1.md)
+* [Components](content/components.md)
 
 ## Illustration & Animations
 
