@@ -26,7 +26,7 @@ Nutanix hyperconverged infrastructure \(HCI\) brings newfound simplicity and ope
 | ![](../.gitbook/assets/ahv.svg) AHV | Hyper-converged Infrastructure |
 | ![](../.gitbook/assets/prism_central.svg) Prism | Infrastructure Management |
 | ![](../.gitbook/assets/xi.svg) Xi  | Cloud Platform and Services |
-| ![](../.gitbook/assets/clusters.svg) Xi Clusters | AWS Bare metal management using AOS |
+| ![](../.gitbook/assets/clusters.svg) Xi Clusters | AWS bare metal with our Nutanix HCI stack |
 
 #### 
 

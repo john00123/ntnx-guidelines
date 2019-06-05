@@ -1,4 +1,4 @@
-# Research Building Blocks
+# Research Guidelines
 
 These building blocks are meant to be a practical guide on how to conduct qualitative customer research. It is built according to the journey from setting a research objective, over recruiting to execution on-site and synthesizing the results. It describes the necessary steps in each of the blocks and links to the supplementary documents and templates for further information.
 

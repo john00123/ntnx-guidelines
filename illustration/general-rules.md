@@ -110,7 +110,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../.gitbook/assets/5.png" alt/>
+          <img src="../.gitbook/assets/5 (1).png" alt/>
         </p>
       </td>
     </tr>
@@ -133,7 +133,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../.gitbook/assets/7.png" alt/>
+          <img src="../.gitbook/assets/7 (1).png" alt/>
         </p>
       </td>
     </tr>

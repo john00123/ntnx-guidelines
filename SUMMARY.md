@@ -10,9 +10,8 @@
 
 ## Content & Research
 
-* [Voice and Tone](content/untitled-1.md)
-* [Research Building Blocks](content/untitled.md)
-* [Components](content/components.md)
+* [Content Guidelines](content/content-guidelines.md)
+* [Research Guidelines](content/untitled.md)
 
 ## Illustration & Animations
 
