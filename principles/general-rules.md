@@ -1,4 +1,4 @@
-# Website Illustration Guidelines
+# Illustration
 
 ### Overview
 

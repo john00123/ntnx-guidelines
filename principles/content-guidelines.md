@@ -1,4 +1,4 @@
-# Content Guidelines
+# Content
 
 ## Voice and Tone
 

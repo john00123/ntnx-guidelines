@@ -36,7 +36,9 @@ This is Nutanix general color scheme to define main layout areas, like navigatio
 
 * Make sure that to use colors with similar tonality. Nutanix **Neutral Palette** has blue a base, so combining with regular desaturated colors can break to harmony between between them. Make sure to reference you Color equation section, to learn more about how these colors were derived.
 * Try to minimize the use of too many different tonalities in a single page. 
-* 
+
+
+
 ### Blue Palette
 
 Blue is used in two different scenarios, to inform or highlight an element without any state association. The second usecase is to be used as a visual signifier of interactivity in our products.
@@ -105,7 +107,9 @@ This functional palette is focused on displaying warning or alert information to
 #### Best practices
 
 * Yellow has a low contrast on white background, make sure to minimize the use of this color unless denominating warning states in the interface. 
-* 
+
+
+
 ### Red Palette
 
 This functional palette is focused on displaying error or critical information to the user.
@@ -127,6 +131,6 @@ This functional palette is focused on displaying error or critical information t
 
 * Red is asociated with critical or alerts in our UI, make sure to use the color sporadically to avoid overwelming the customer's view.
 * In the past there were charts using these colors, we have removed them from the palette. 
-* 
+
 \*\*\*\*
 

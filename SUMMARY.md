@@ -1,21 +1,15 @@
 # Table of contents
 
 * [Design Documentation](README.md)
+* [Products Assets](product-logos.md)
 
-## Principles
+## Principles & Guidelines
 
 * [Accesibility](principles/accesibility/README.md)
   * [Baseline Accessibility Audit](principles/accesibility/untitled.md)
-* [Product Logos](principles/product-logos.md)
-
-## Content & Research
-
-* [Content Guidelines](content/content-guidelines.md)
-* [Research Guidelines](content/untitled.md)
-
-## Illustration & Animations
-
-* [Website Illustration Guidelines](illustration/general-rules.md)
+* [Research](principles/untitled.md)
+* [Content](principles/content-guidelines.md)
+* [Illustration](principles/general-rules.md)
 
 ## Primitives
 
