@@ -10,14 +10,13 @@
 
 ## Content & Research
 
-* [Research Guidelines](content/research-guidelines.md)
 * [Voice and Tone](content/untitled-1.md)
+* [Research Building Blocks](content/untitled.md)
 * [Components](content/components.md)
 
 ## Illustration & Animations
 
-* [Website Illustration Guidelines](illustration/general-rules/README.md)
-  * [Illustration Request \[ JIRA \]](illustration/general-rules/illustration-request-jira.md)
+* [Website Illustration Guidelines](illustration/general-rules.md)
 
 ## Primitives
 

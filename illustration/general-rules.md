@@ -8,7 +8,7 @@ The guidelines below aim to adhere to this initial goal, while offering a platfo
 
 ### Color
 
-The color palette is a continuation of that used in the Nutanix design system's [Color](../../primitives/colors/) page. We felt that it was important to provide the opportunity to explore a spectrum of colors diverse enough to apply to a myriad of circumstances, while staying true to the tones most commonly seen within the user interface. With this in mind, the fills were chosen to complement- rather than distract- the accompanying design language.
+The color palette is a continuation of that used in the Nutanix design system's [Color](../primitives/colors/) page. We felt that it was important to provide the opportunity to explore a spectrum of colors diverse enough to apply to a myriad of circumstances, while staying true to the tones most commonly seen within the user interface. With this in mind, the fills were chosen to complement- rather than distract- the accompanying design language.
 
 <table>
   <thead>
@@ -29,7 +29,7 @@ The color palette is a continuation of that used in the Nutanix design system's 
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/image_preview.png" alt/>
+          <img src="../.gitbook/assets/image_preview.png" alt/>
         </p>
       </td>
     </tr>
@@ -41,7 +41,7 @@ The color palette is a continuation of that used in the Nutanix design system's 
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/1.png" alt/>
+          <img src="../.gitbook/assets/1.png" alt/>
         </p>
       </td>
     </tr>
@@ -53,7 +53,7 @@ The color palette is a continuation of that used in the Nutanix design system's 
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/2 (1).png" alt/>
+          <img src="../.gitbook/assets/2 (1).png" alt/>
         </p>
       </td>
     </tr>
@@ -83,7 +83,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/3.png" alt/>
+          <img src="../.gitbook/assets/3.png" alt/>
         </p>
       </td>
     </tr>
@@ -97,7 +97,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/4.png" alt/>
+          <img src="../.gitbook/assets/4.png" alt/>
         </p>
       </td>
     </tr>
@@ -110,7 +110,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/5.png" alt/>
+          <img src="../.gitbook/assets/5.png" alt/>
         </p>
       </td>
     </tr>
@@ -123,7 +123,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/6.png" alt/>
+          <img src="../.gitbook/assets/6.png" alt/>
         </p>
       </td>
     </tr>
@@ -133,7 +133,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/7.png" alt/>
+          <img src="../.gitbook/assets/7.png" alt/>
         </p>
       </td>
     </tr>
@@ -143,7 +143,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/8.png" alt/>
+          <img src="../.gitbook/assets/8.png" alt/>
         </p>
       </td>
     </tr>
@@ -153,7 +153,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/9.png" alt/>
+          <img src="../.gitbook/assets/9.png" alt/>
         </p>
       </td>
     </tr>
@@ -163,7 +163,7 @@ Nutanix is a multitude of complex, interconnecting products and services; all fi
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/10.png" alt/>
+          <img src="../.gitbook/assets/10.png" alt/>
         </p>
       </td>
     </tr>
@@ -190,7 +190,7 @@ The decision to use outlines \(strokes\) for our illustrations ultimately came d
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/11.png" alt/>
+          <img src="../.gitbook/assets/11.png" alt/>
         </p>
       </td>
     </tr>
@@ -200,7 +200,7 @@ The decision to use outlines \(strokes\) for our illustrations ultimately came d
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/12.png" alt/>
+          <img src="../.gitbook/assets/12.png" alt/>
         </p>
       </td>
     </tr>
@@ -214,7 +214,7 @@ The decision to use outlines \(strokes\) for our illustrations ultimately came d
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/13.png" alt/>
+          <img src="../.gitbook/assets/13.png" alt/>
         </p>
       </td>
     </tr>
@@ -224,7 +224,7 @@ The decision to use outlines \(strokes\) for our illustrations ultimately came d
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/14.png" alt/>
+          <img src="../.gitbook/assets/14.png" alt/>
         </p>
       </td>
     </tr>
@@ -234,7 +234,7 @@ The decision to use outlines \(strokes\) for our illustrations ultimately came d
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/15.png" alt/>
+          <img src="../.gitbook/assets/15.png" alt/>
         </p>
       </td>
     </tr>
@@ -262,7 +262,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/16.png" alt/>
+          <img src="../.gitbook/assets/16.png" alt/>
         </p>
       </td>
     </tr>
@@ -273,7 +273,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/17.png" alt/>
+          <img src="../.gitbook/assets/17.png" alt/>
         </p>
       </td>
     </tr>
@@ -286,7 +286,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/18.png" alt/>
+          <img src="../.gitbook/assets/18.png" alt/>
         </p>
       </td>
     </tr>
@@ -296,7 +296,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/19.png" alt/>
+          <img src="../.gitbook/assets/19.png" alt/>
         </p>
       </td>
     </tr>
@@ -311,7 +311,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
         <p></p>
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/image.png" alt/>
+          <img src="../.gitbook/assets/image.png" alt/>
         </p>
       </td>
     </tr>
@@ -351,7 +351,7 @@ With this in mind, set sizing guidelines have been created to prevent any proble
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/20.png" alt/>
+          <img src="../.gitbook/assets/20.png" alt/>
         </p>
       </td>
     </tr>
@@ -361,7 +361,7 @@ With this in mind, set sizing guidelines have been created to prevent any proble
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/21.png" alt/>
+          <img src="../.gitbook/assets/21.png" alt/>
         </p>
       </td>
     </tr>

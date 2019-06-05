@@ -9,7 +9,9 @@ Nutanix uses exclusively Nutanix Soft. A custom font that was created to fit our
 * Should be styled as regular, medium and semibold only.
 * For large titles we use thin style.
 * Only use _italic_ is not supported in our system.
-* 
+
+
+
 | Font  | Name | Tag | Font Weight | Line Height | Font Size |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ![](../.gitbook/assets/display.svg) | Display Single | `<h1>` | Thin | 20 | 29px |
