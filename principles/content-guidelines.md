@@ -102,7 +102,9 @@ Don’t: Don’t use headings that are unnecessarily long.
 This is the light text that appears within a field label and disappears when data is entered in the field.  
 
 
-Don’t: Don’t place text which user will need to memorize for cross-verifying after he/she has entered the data as a placeholder text.![](../.gitbook/assets/1%20%281%29.png)
+Don’t: Don’t place text which user will need to memorize for cross-verifying after he/she has entered the data as a placeholder text.
+
+![](../.gitbook/assets/1%20%281%29.png)
 
 Do: Place text that user might need after filling the field as notes.
 
