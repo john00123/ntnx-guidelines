@@ -10,6 +10,8 @@ This illustration system was first conceptualized as a means to enrich the user 
 
 The guidelines below aim to adhere to this initial goal, while offering a platform that supports flexibility and scalability.
 
+### 
+
 ### Sizing
 
 These sizes act as the cornerstone for setting up a scene and realizing what is plausible given the context.
