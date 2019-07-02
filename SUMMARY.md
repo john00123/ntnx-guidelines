@@ -3,10 +3,9 @@
 * [Design Documentation](README.md)
 * [Products Assets](product-logos.md)
 
-## Principles & Guidelines
+## Principles & Guidelines <a id="principles"></a>
 
-* [Accesibility](principles/accesibility/README.md)
-  * [Baseline Accessibility Audit](principles/accesibility/untitled.md)
+* [Accesibility](principles/accesibility.md)
 * [Research](principles/untitled.md)
 * [Content](principles/content-guidelines.md)
 * [Illustration](principles/general-rules.md)
