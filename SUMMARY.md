@@ -3,12 +3,12 @@
 * [Design Documentation](README.md)
 * [Products Assets](product-logos.md)
 
-## Principles & Guidelines <a id="principles"></a>
+## Guides
 
-* [Accesibility](principles/accesibility.md)
-* [Research](principles/untitled.md)
-* [Content](principles/content-guidelines.md)
-* [Illustration](principles/general-rules.md)
+* [Accesibility](guides/accesibility.md)
+* [Research](guides/untitled.md)
+* [Content](guides/content-guidelines.md)
+* [Illustration](guides/general-rules.md)
 
 ## Primitives
 
