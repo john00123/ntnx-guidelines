@@ -1,2 +1,0 @@
-# Choosing the Chart Type
-
