@@ -1,20 +1,22 @@
-const blocks = ['infrastructure','interface','miscelaneous','tools','sports','signs','geometry','transportation','buildings']
+const blocks = ['infrastructure','interface','miscelaneous',
+'tools','sports','signs','geometry','transportation','buildings']
 const marketing = ['market']
-const product = ['empty_state','error','trigger','full_page']
-const video = ['svg_animations']
-const content = $('.content')
-const pageName = ['product', 'marketing', 'video','blocks',]
-const pageVar = [ product, marketing, video,blocks,]
-const subtitle = $('.level1')
+const empty     = ['empty_states']
+const widgets   = ['widgets']
+const video     = ['svg_animations']
+const content   = $('.content')
+const pageName  = ['Empty_States', 'Widgets']
+const pageVar   = [empty, widgets]
+const subtitle  = $('.level1')
 
 
 function generate(page) {
-  const content = $('.content')
-  content.html('') //clear page
+
+  content.html('') //clears page before appending
 
   page.map(element => {
     let folder = `../img/${element}`
-    let title = element.replace('_', ' ')
+    let title  = element.replace('_', ' ')
 
     content.append(`
       <section class='${element}-section' fw>
@@ -29,11 +31,12 @@ function generate(page) {
       if (val.match(/\.(jpe?g|svg|gif)$/)) {
 
         //image path
+        let cleanName  = val.replace(`/img/${element}/`, '').replace('(1x1)','').replace('(2x1)','')
         let assetName  = val.replace(`/img/${element}/`, '')
         let assetPath  = `/img/${element}/${assetName}`
-        let pngPath  = `/img/${element}/${assetName.replace('.svg','.png')}`
+        let pngPath  = `/img/${element}/${assetName.replace('.svg','@2x.png')}`
         let darkModeOn = $('.subheader').hasClass('dark-subheader')
-        let cleanPath  = assetName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
+        let cleanPath  = cleanName.replace(/_/g,' ').replace('%20',' ').replace('.svg','');
 
 
         //append image container to the section
@@ -48,7 +51,7 @@ function generate(page) {
               </div>
             </div>
             <div class='image ${element}-child'
-                 style='background-image:url(${assetPath})'>
+                 style='background-image:url("${assetPath}")'>
             </div>
           </div>`
         )
@@ -75,20 +78,16 @@ $('body').append(`
   <div class='page-selection'>
     <div class='page-nav' fw vss> <ul></ul> </div>
   </div>`)
-
-
 pageName.map( page => {
-  $('.page-nav ul, .navlinks').append(`<li class='${page}'>${page}</li>`)
+  $('.page-nav ul, .navlinks').append(`<li class='${page}'>${page.replace('_',' ')}</li>`)
 })
-
-
 $('.hamburger').click(() => $('.page-selection').slideToggle('fast'))
 
 
 // page load
 $(window).on("load", function(){
   loadIn(pageVar[0])//
-  subtitle.text(pageName[0])
+  subtitle.text(pageName[0].replace('_',' '))
   document.getElementById("search").value = "";
 })
 
@@ -96,7 +95,7 @@ function navigate(i){
   $(`.${pageName[i]}`).click(function(){
     $('.page-selection').slideUp('normal')
     loadIn(pageVar[i])
-    subtitle.text(pageName[i])
+    subtitle.text(pageName[i].replace('_',' '))
     document.getElementById("search").value = "";
   })
 }

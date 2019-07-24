@@ -88,6 +88,7 @@ html{
   @include size(250px, 100%);
   @include flex(center, flex-end, column);
   background  : transparent no-repeat center;
+  background-size: 120px, auto;
 }
 
 

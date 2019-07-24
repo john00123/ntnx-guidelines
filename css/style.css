@@ -377,6 +377,10 @@ li, .level1, #search {
   }
 }
 
+.level1 {
+  flex-shrink: 0;
+}
+
 li {
   color: #627386;
   list-style: none;
@@ -590,6 +594,7 @@ html body {
   justify-content: flex-end;
   flex-direction: column;
   background: transparent no-repeat center;
+  background-size: 120px, auto;
 }
 
 .market .image {
