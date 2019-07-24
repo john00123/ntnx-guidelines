@@ -1,3 +1,7 @@
+---
+description: Guidelines for illustrations in product
+---
+
 # Illustration
 
 ### Overview
@@ -5,6 +9,21 @@
 This illustration system was first conceptualized as a means to enrich the user experience and inject character in to the Prism platform. Though it has since grown beyond its initial purpose, the same ethos that was at the core of our initial developments- to form a flexible, intertwined system for creating illustrations with an emphasis on abstraction that encourages creative use of detail- continues to run throughout our work.
 
 The guidelines below aim to adhere to this initial goal, while offering a platform that supports flexibility and scalability.
+
+### 
+
+### Sizing
+
+These sizes act as the cornerstone for setting up a scene and realizing what is plausible given the context.
+
+| Width | Height | Type | Application |
+| :--- | :--- | :--- | :--- |
+| **900px** | **600px** | Extra Large | `Full Page no text` |
+| **440px** | **300px** | Large | `On-boarding (1)` `Popup`  `Empty State` |
+| **440px** | **200px** | Medium | `On-boarding (3)` `Popup` |
+| **126px** | **126px** | Square | `Empty State` `Multistep On-boarding` |
+
+### 
 
 ### Color
 
@@ -323,14 +342,7 @@ In keeping with our choice of palette and use of isometric construction, we felt
 Uniformity and consistency can often be an issue when creating illustrations across a platform as vast and diverse as that of Nutanix. These illustrations can appear on screens ranging from the minute to the mammoth. Though the use of strokes encourages greater thought and care when problem solving, it can lead to some issues with consistency when scaling and positioning both entire illustrations and individual objects.
 
   
-With this in mind, set sizing guidelines have been created to prevent any problems that may arise from resizing images after their creation. These sizes act as the cornerstone for setting up a scene and realizing what is plausible given the context.
-
-| Width | Height | Type | Application |
-| :--- | :--- | :--- | :--- |
-| **900px** | **600px** | Extra Large | `Full Page no text` |
-| **440px** | **300px** | Large | `On-boarding (1)` `Popup`  `Empty State` |
-| **440px** | **200px** | Medium | `On-boarding (3)` `Popup` |
-| **126px** | **126px** | Square | `Empty State` `Multistep On-boarding` |
+With this in mind, set sizing guidelines have been created to prevent any problems that may arise from resizing images after their creation. 
 
 <table>
   <thead>
@@ -367,4 +379,9 @@ With this in mind, set sizing guidelines have been created to prevent any proble
     </tr>
   </tbody>
 </table>
+
+### Requesting a new illustration
+
+1. Go to [https://jira.nutanix.com](https://jira.nutanix.com) and create a ticket under **Global Design Ops \(DESIGN\),** then select UX/UI Story as an issue type.
+2. In the EPIC link select **EPIC: Illustration Design System**
 

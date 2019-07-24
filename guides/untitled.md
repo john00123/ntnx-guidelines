@@ -1,8 +1,15 @@
+---
+description: >-
+  At Nutanix,​ we have our customers as the main drivers. Research activities
+  allow the team to communicate directly with a customer in a clear transparent
+  way.
+---
+
 # Research
 
 These building blocks are meant to be a practical guide on how to conduct qualitative customer research. It is built according to the journey from setting a research objective, over recruiting to execution on-site and synthesizing the results. It describes the necessary steps in each of the blocks and links to the supplementary documents and templates for further information.
 
-**RESEARCH OBJECTIVE**
+### **Research Objective**
 
 _Descriptive text what the building block is about_
 
@@ -12,7 +19,7 @@ _Descriptive text what the building block is about_
 * _Market specific obstacles_
 * _Identify / Verify Personas_
 
-**RESEARCH DESIGN**
+### **Research Design**
 
 1. _Preliminary Research_
 2. _Onsite Visits_
@@ -26,7 +33,7 @@ _Methods Catalogue:_
 3. _Contextual Inquiry_
 4. _…_
 
-**RECRUITING PARTICIPANTS**
+### **Recruiting Participants**
 
 _Identify/utilize existing recruiting channels_
 
