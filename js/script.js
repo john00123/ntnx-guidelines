@@ -47,6 +47,7 @@ function generate(page) {
           ${assetName.replace('.svg','')}
           ${assetName.includes('2x1') ? 'twobyone' : ''}
           ${assetName.includes('2x2') ? 'twobytwo' : ''}
+          ${assetName.includes('step') ? 'steps' : ''}
           ${darkModeOn ? 'dark-card ':''}'>
             <div class='card-header' hcd>
               <p hcd> ${cleanPath}</p>
