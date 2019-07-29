@@ -1,12 +1,13 @@
 const blocks = ['infrastructure','interface','miscelaneous',
 'tools','sports','signs','geometry','transportation','buildings']
-const marketing = ['market']
 const empty     = ['empty_states']
 const widgets   = ['widgets']
+const onboarding= ['onboarding']
+const marketing = ['marketing']
 const video     = ['svg_animations']
 const content   = $('.content')
-const pageName  = ['Empty_States', 'Widgets']
-const pageVar   = [empty, widgets]
+const pageName  = ['Empty_States', 'Widgets', 'Marketing', 'Onboarding']
+const pageVar   = [empty, widgets, marketing, onboarding]
 const subtitle  = $('.level1')
 
 
@@ -42,7 +43,11 @@ function generate(page) {
         //append image container to the section
 
         $(`.${element}`).append( `
-          <div class='card ${assetName.replace('.svg','')} ${darkModeOn ? 'dark-card ':''}'>
+          <div class='card
+          ${assetName.replace('.svg','')}
+          ${assetName.includes('2x1') ? 'twobyone' : ''}
+          ${assetName.includes('2x2') ? 'twobytwo' : ''}
+          ${darkModeOn ? 'dark-card ':''}'>
             <div class='card-header' hcd>
               <p hcd> ${cleanPath}</p>
               <div>

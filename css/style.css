@@ -597,15 +597,21 @@ html body {
   background-size: 120px, auto;
 }
 
-.market .image {
-  background-size: 150px;
+.twobyone {
+  grid-column-end: span 2;
 }
 
-.empty_state-child {
-  height: 120px;
-  width: 120px;
-  box-sizing: border-box;
-  margin: 60px auto;
+.twobyone .image {
+  background-size: 250px, auto;
+}
+
+.twobytwo {
+  grid-area: span 2/ span 2;
+}
+
+.twobytwo .image {
+  height: 500px;
+  background-size: 500px, 500px;
 }
 
 .full_page {
