@@ -31,7 +31,7 @@ function generate(page) {
       if (val.match(/\.(jpe?g|svg|gif)$/)) {
 
         //image path
-        let cleanName  = val.replace(`/img/${element}/`, '').replace('(1x1)','').replace('(2x1)','')
+        let cleanName  = val.replace(`/img/${element}/`, '').replace('%281x1%29','').replace('%282x1%29','')
         let assetName  = val.replace(`/img/${element}/`, '')
         let assetPath  = `/img/${element}/${assetName}`
         let pngPath  = `/img/${element}/${assetName.replace('.svg','@2x.png')}`
