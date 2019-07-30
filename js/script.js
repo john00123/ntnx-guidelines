@@ -1,13 +1,12 @@
-const blocks = ['infrastructure','interface','miscelaneous',
-'tools','sports','signs','geometry','transportation','buildings']
 const empty     = ['empty_states']
 const widgets   = ['widgets']
 const onboarding= ['onboarding']
 const marketing = ['marketing']
+const blocks    =  ['blocks']
 const video     = ['svg_animations']
 const content   = $('.content')
-const pageName  = ['Empty_States', 'Widgets', 'Marketing', 'Onboarding']
-const pageVar   = [empty, widgets, marketing, onboarding]
+const pageName  = ['Empty_States', 'Widgets', 'Marketing', 'Onboarding', 'Blocks']
+const pageVar   = [empty, widgets, marketing, onboarding, blocks]
 const subtitle  = $('.level1')
 
 
@@ -111,6 +110,7 @@ navigate(0)
 navigate(1)
 navigate(2)
 navigate(3)
+navigate(4)
 
 
 //dark darkModeOn
