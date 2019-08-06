@@ -2,11 +2,12 @@ const empty     = ['empty_states']
 const widgets   = ['widgets']
 const onboarding= ['onboarding']
 const marketing = ['marketing']
+const product = ['product']
 const blocks    =  ['blocks']
 const video     = ['svg_animations']
 const content   = $('.content')
-const pageName  = ['Empty_States', 'Widgets', 'Marketing', 'Onboarding', 'Blocks']
-const pageVar   = [empty, widgets, marketing, onboarding, blocks]
+const pageName  = ['Empty_States', 'Widgets', 'Marketing','Product', 'Onboarding', 'Blocks']
+const pageVar   = [empty, widgets, marketing, product, onboarding, blocks]
 const subtitle  = $('.level1')
 
 
@@ -111,6 +112,7 @@ navigate(1)
 navigate(2)
 navigate(3)
 navigate(4)
+navigate(5)
 
 
 //dark darkModeOn
