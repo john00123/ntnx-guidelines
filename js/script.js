@@ -52,8 +52,8 @@ function generate(page) {
             <div class='card-header' hcd>
               <p hcd> ${cleanPath}</p>
               <div>
-                <a  href="${pngPath  }"><button> PNG </button></a>
-                <a  href="${assetPath}"><button> SVG </button></a>
+                <a  href="${pngPath  }" download><button> PNG </button></a>
+                <a  href="${assetPath}" download><button> SVG </button></a>
               </div>
             </div>
             <div class='image ${element}-child'
