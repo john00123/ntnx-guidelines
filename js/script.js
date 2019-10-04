@@ -60,7 +60,7 @@ function generate(page) {
                  style='background-image:url("${assetPath}")'>
             </div>
           </div>`
-        )
+        );
       }
       })
     }}) //end of ajax call
@@ -69,12 +69,17 @@ function generate(page) {
 
 //pageLoad
 function loadIn(page) {
-  content.fadeOut('normal', function() {
-    generate(page);
-    page == video? player(): null
-    setTimeout(function () { content.fadeIn('fast') }, 400)
-  })
-  content.removeClass('slideDown');
+  // content.fadeOut('normal', function() {
+  //   generate(page);
+  //   page == video? player(): null
+  //   setTimeout(function () { content.fadeIn('fast') }, 400)
+  // })
+  // content.removeClass('slideDown');
+
+  generate(page);
+  setTimeout(function () {
+      $('.card').each(function(){$(this).addClass('loaded')});
+  }, 400);
 }
 
 
@@ -122,4 +127,5 @@ function darkMode (){
   $('.card').toggleClass('dark-card');
   $('.subheader').toggleClass('dark-subheader');
 }
+
 $('.main-back').click(darkMode)
