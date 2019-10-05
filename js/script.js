@@ -6,8 +6,8 @@ const product = ['product']
 const blocks    =  ['blocks']
 const video     = ['svg_animations']
 const content   = $('.content')
-const pageName  = ['Empty_States', 'Widgets', 'Marketing','Product', 'Onboarding', 'Blocks']
-const pageVar   = [empty, widgets, marketing, product, onboarding, blocks]
+const pageName  = ['Empty_States', 'Widgets', 'Marketing','Product']
+const pageVar   = [empty, widgets, marketing, product]
 const subtitle  = $('.level1')
 
 
@@ -69,17 +69,7 @@ function generate(page) {
 
 //pageLoad
 function loadIn(page) {
-  // content.fadeOut('normal', function() {
-  //   generate(page);
-  //   page == video? player(): null
-  //   setTimeout(function () { content.fadeIn('fast') }, 400)
-  // })
-  // content.removeClass('slideDown');
-
   generate(page);
-  setTimeout(function () {
-      $('.card').each(function(){$(this).addClass('loaded')});
-  }, 400);
 }
 
 
@@ -89,9 +79,11 @@ $('body').append(`
   <div class='page-selection'>
     <div class='page-nav' fw vss> <ul></ul> </div>
   </div>`)
+
 pageName.map( page => {
   $('.page-nav ul, .navlinks').append(`<li class='${page}'>${page.replace('_',' ')}</li>`)
 })
+
 $('.hamburger').click(() => $('.page-selection').slideToggle('fast'))
 
 
